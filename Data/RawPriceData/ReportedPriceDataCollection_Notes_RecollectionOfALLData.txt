@@ -1,0 +1,202 @@
+Reported price data collection of ALL DATA AGAIN
+Travis Tai
+Started 03/2016
+
+####################
+USA 
+- 1950-2010
+- USD
+- website (http://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/annual-landings/index)
+- "...ex-vessel dollar value of landings", "...value sold at the dock"
+- DL 09/03/2016
+- Formatted 16/03/2016
+
+####################
+AMERICAN SAMOA
+- 2001-2011
+- USD
+- website (http://www.pifsc.noaa.gov/wpacfin/as/Pages/as_data_11.php)
+- Current Reported data has only 2003 data
+- all pdf files
+- Data is collected from mandatory surveys from fisherman that report revenues (assume at the dock prices)
+- DL 29/07/2015
+- Formatted 07/08/2015
+
+####################
+HAWAII
+- 2001-2011
+- USD
+- website (http://www.pifsc.noaa.gov/wpacfin/hi/dar/Pages/hi_data_4.php)
+- Should this be included?
+- all pdf files
+- Data is collected from mandatory surveys from fisherman that report revenues (assume at the dock prices)
+- DL 29/07/2015
+
+####################
+GUAM
+- 2001-2011
+- USD
+- website (http://www.pifsc.noaa.gov/wpacfin/guam/dawr/Pages/gdawr_data_4.php)
+- all pdf files
+- Data is collected from mandatory surveys from fisherman that report revenues (assume at the dock prices)
+- DL 29/07/2015
+- Formatted 10/08/2015
+
+####################
+CNMI (Northern Marianas islands)
+- 2001-2011
+- USD
+- website (http://www.pifsc.noaa.gov/wpacfin/cnmi/Pages/cnmi_data_3.php)
+- all pdf files
+- Data is collected from mandatory surveys from fisherman that report revenues (assume at the dock prices)
+- DL 29/07/2015
+- Formatted 10/08/2015
+
+
+####################
+CANADA (PRICES ON WEBSITE TO BE PROCESSED
+- 1917-1975 
+- CAD
+- from (http://www.statcan.gc.ca/pub/11-516-x/sectionn/4057755-eng.htm)
+- Both landings (tonnage) and landed values (CAD$)
+- landed values "...the primary data on landings are obtained from purchase slips made out by the buyer at the 
+	time of landing and first sale, a procedure begun in the 1950s."
+- DL 09/03/2016
+
+- 1990-2010
+- CAD
+- from (http://www.dfo-mpo.gc.ca/stats/commercial/sea-maritimes-eng.htm)
+- Both landings (tonnage) and landed values (CAD$)
+- landed values "...based on prices paid to fishers."
+- DL 09/03/2016
+
+####################
+AUSTRALIA
+- 1991-2010 (1991 document includes data to 1989)
+- website (http://www.agriculture.gov.au/abares); Search Australian fisheries statistics
+- local currency
+- 2010 data has years 2001-2010 (10 years)
+- data from 1989-2000 includes aquaculture; 2001-2010 has tables that don't include aquaculture
+- "Production value: is the assessed value at the point of landing for the quantity produced and 
+		excludes transport and marketing costs"
+- DL 10/03/2016
+- Formatted 2009-2010 16/03/2016
+
+
+####################
+EUROPEAN UNION (EU)
+- 1992-2010
+- website (http://ec.europa.eu/eurostat/web/fisheries/data/database)
+- used "All presentation forms" as presentation form since the "price quoted is first sale of PRODUCT" (any product)
+- used "human consumption" as destination, all other forms will be integrated into reduction database
+- used "total" for native vessel as we know all landings are in a country regardless of vessel's flag (see below)
+- all countries in separate excel files. need to compile data!
+- local currency
+
+- Landings data relate to fishery products (product weight and value) landed in a country regardless of the 
+nationality of the vessel making the landings, but also to fishery products landed by the country’s vessels 
+in non-EU ports and then imported into the EU.  
+- because of this ^^, we should use the "Landed Country" as for price estimation it is landed in that country
+
+- Landings def'n (http://ec.europa.eu/eurostat/statistics-explained/index.php/Fishery_statistics_in_detail#Landings)
+- (http://ec.europa.eu/eurostat/cache/metadata/en/fish_ld_esms.htm)
+- "The price quoted is that at the time of the first sale of the product. For products which are not 
+immediately sold or which are subject to a contract or other arrangement, the average price has been 
+estmated by the national authorities using a method appropriate for that particular situation."
+- excluded Croatia because it only had data after 2011
+- downloaded price/value data for products with a "destination" other than "human consumption" (ie. reduction)
+
+- DL 10/03/2016
+
+- somethings up with Finalnd (from last data extraction) but I can't remember 
+
+
+
+####################
+OECD
+- 1987-2010
+- website (http://stats.oecd.org/) or specifically (http://stats.oecd.org/Index.aspx?DataSetCode=FISH_NLD)
+- 27 OECD members and 6 non-OECD members
+- in Local currency
+- three separate tables: national landings in domestic ports, national landings in foreign ports, 
+	foreign landings in national ports
+- no explicit statement on "EX-VESSEL" values, but listed as "landings in _____ ports".
+- OECD Countries:
+	Australia	Belgium		Canada		Chile		
+	Denmark		Estonia		Finland		France
+	Germany		Greece		Iceland		Ireland
+	Italy		Japan		Korea, S	Mexico
+	Netherlands	New Zealand	Norway		Poland
+	Portugal	Slovenia	Spain		Sweden
+	Turkey		UK		US
+- non-OCED countries:
+	Argentina	China		Columbia	Latvia
+	Taipei		Thailand
+- DL 10/09/2016
+
+
+
+
+####################
+SOUTHEAST ASIA (SEA)
+- (http://fishstat.seafdec.org/)
+- 1976-2007
+- website 1976-2007 (http://fishstat.seafdec.org/statistical_bulletin/index.php)
+- in USD; Prevaliling rate which has been used for statistical purposes for 
+	conversion of national currency into US$.
+- "(2) Fishery production in value Fishery production in 
+	value represents the producer value equivalent of landing. This 
+	is generally estimated by multiplying quantity of catches and landings 
+	by the producer price (wholesale price at landing centers) by species."
+- DL 30/07/2015
+
+- also obtained data on calculated "Price of Fresh Fish"
+- collected only "Producer prices"
+- USD
+- Thailand price of prawns >$26,000/tonne (warning)
+- Only from 1977-2001
+- DL 10/03/2016
+
+
+- 2008-2011
+- website 2008-2011 (http://fishstat.seafdec.org/Statistics/index.php)
+- prices from 2008-2011 are values calculated in USD using exchange rate from IMF
+- "intended as average price per kilogram at first sale" from
+	(http://fishstat.seafdec.org/Statistics/document/note.pdf)
+- DL 30/07/2015
+
+
+####################
+JAPAN
+- Data obtained from Wilf's files. In Japanese
+- Does not align/match with reported price database record.
+
+- 1956-2003
+- website (http://www.stat.go.jp/english/data/chouki/07.htm)
+- tonnage and value
+- value in YEN
+
+- 2006-2010
+- website (http://www.maff.go.jp/e/tokei/kikaku/nenji_e/nenji_index.html)
+- tonnage and value
+- value in yen
+
+
+
+
+####################
+SOUTH AFRICA
+- Data spread out throughout PDF
+- in South African Rand (dollars)
+- **need to determine the ex-vessel value (FOB price?)
+
+
+
+
+
+
+
+
+
+
+

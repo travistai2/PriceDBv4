@@ -1,0 +1,180 @@
+Species
+Pounds
+Value ($)
+Price/Lb ($)
+Bigeye scad (atulai)     
+2,272
+6,445
+2.84
+Black jack               
+298
+716
+2.40
+Jacks                    
+1,948
+5,152
+2.64
+Napoleon wrasse          
+4,164
+11,576
+2.78
+Humphead parrotfish      
+63
+141
+2.25
+Bottomfishes (unknown)   
+18
+41
+2.30
+Deep bottomfishes        
+34
+68
+2.00
+Ehu (red snapper)        
+1,060
+4,197
+3.96
+Gindai (flower snapper)  
+245
+967
+3.96
+Groupers                 
+2,538
+7,095
+2.80
+Kalikali (yellowtail, goldflag jobfish)
+641
+2,354
+3.67
+Lehi (silverjaw snapper, rusty jobfish)
+423
+1,568
+3.70
+Onaga (red snapper)      
+5,441
+26,209
+4.82
+Opakapaka (pink snapper) 
+1,071
+4,118
+3.84
+Uku (green jobfish)
+317
+856
+2.70
+Tagafi (red snapper)     
+177
+467
+2.64
+Amberjack                
+382
+1,027
+2.69
+Reef fishes (unknown)    
+25,054
+75,124
+3.00
+Rabbitfishes             
+576
+2,749
+4.77
+Rudderfish (guilli)      
+126
+378
+3.00
+Mafute (emperors)
+1,456
+4,172
+2.86
+Squirrelfishes           
+109
+322
+2.97
+Parrotfishes             
+37,247
+120,584
+3.24
+Snappers                 
+164
+479
+2.92
+Surgeonfishes            
+4,912
+14,720
+3.00
+Unicornfishes            
+25,333
+75,994
+3.00
+Goatfishes               
+43
+128
+3.00
+Sweetlips                
+385
+1,042
+2.71
+Barracudas               
+1,426
+2,802
+1.97
+Mahimahi                 
+53,649
+118,238
+2.20
+Marlins                  
+20,354
+29,315
+1.44
+Spearfish                
+46
+69
+1.50
+Sailfish                 
+780
+1,261
+1.62
+Rainbow runner           
+2,310
+4,555
+1.97
+Monchong                 
+174
+431
+2.48
+Wahoo                    
+25,865
+56,871
+2.20
+Tunas (unknown)          
+48
+71
+1.50
+Skipjack tuna            
+21,248
+40,906
+1.93
+Dogtooth tuna            
+1,505
+2,263
+1.50
+Yellowfin tuna           
+15,643
+32,968
+2.11
+Crabs                    
+6
+18
+3.00
+Lobsters                 
+1,980
+7,375
+3.72
+Octopus                  
+3,938
+11,889
+3.02
+Squid                    
+14
+43
+3.00

@@ -1,0 +1,46 @@
+Species Pounds Value ($) Price/Lb ($) 
+Miscellaneous                                                                          368                      974            2.64 
+Bigeye scad (atulai)                                                              4,292                 13,177            3.07 
+Black jack                                                                                223                      558             2.50 
+Jacks                                                                                     2,100                   5,456             2.60 
+Napoleon wrasse                                                                   1,260                   3,502            2.78 
+Humphead parrotfish                                                                 20                        50            2.50 
+Bottomfishes (unknown)                                                           23                        69            3.00 
+Ehu (red snapper)                                                                     638                   2,496             3.91 
+Gindai (flower snapper)                                                           714                   2,855            4.00 
+Groupers                                                                                  839                   2,222             2.65 
+Kalikali (pink snapper)                                                         1,156                   4,079             3.53 
+Lehi (silverjaw)                                                                       892                   3,323            3.72 
+Onaga (red snapper)                                                             2,158                 10,740            4.98 
+Opakapaka (pink snapper)                                                       511                   2,043            4.00 
+Uku (gray snapper)                                                                  406                   1,115            2.75 
+Tagafi (red snapper)                                                                   18                        37            2.00 
+Amberjack                                                                               154                      416             2.71 
+Reef fishes (unknown)                                                        89,541               268,723            3.00 
+Rabbitfishes                                                                             427                   1,281             3.00 
+Rudderfish (guilli)                                                                   314                      942             3.00 
+Mafute (emperor)                                                                  1,434                   4,050             2.82 
+Squirrelfishes                                                                        1,415                   3,663             2.59 
+Parrotfishes                                                                         11,718                 38,046             3.25 
+Snappers                                                                                   258                      720             2.80 
+Surgeonfishes                                                                        5,319                 13,748             2.58 
+Unicornfishes                                                                      17,672                 49,859            2.82 
+Goatfishes                                                                                    5                        16             3.00 
+Sweetlips          		                                            111                      265             2.40 
+Barracudas                                                                            1,388                   2,753             1.98 
+Mahimahi                                                                            50,872                 95,380             1.87 
+Swordfish                                                                                   33                        99             3.00 
+Marlins                                                                                26,203                 37,343             1.43 
+Sailfish                                                                                     368                      605             1.64 
+Rainbow runner                                                                    2,423                   5,263             2.17 
+Monchong                                                                                211                      535             2.54 
+Wahoo                                                                                 20,520                 41,011             2.00 
+Skipjack tuna                                                                      26,407                 41,300             1.56 
+Dogtooth tuna                                                                       1,580                   2,419             1.53 
+Yellowfin tuna                                                                      9,592                 20,040            2.09 
+Kawakawa                                                                                 10                        20             2.00 
+Crabs                                                                                          50                      129             2.58 
+Lobsters                                                                                1,168                   4,329             3.71 
+Octopus                                                                                 2,400                   7,157            2.98 
+
+

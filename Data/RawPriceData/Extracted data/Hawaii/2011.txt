@@ -1,0 +1,457 @@
+Species
+Caught
+Sold
+Value ($)
+Price/Lb ($)
+Miscellaneous                 
+7,988
+7,732
+10,988
+1.42
+Sharks                        
+272,548
+175,911
+115,302
+0.66
+Rays                          
+69
+0
+0
+0.00
+Eels                          
+1,587
+490
+570
+1.16
+Bigeye scad (akule)           
+315,380
+182,614
+592,700
+3.25
+Mackerel scad                 
+284,270
+168,911
+458,923
+2.72
+Leatherjacket                 
+329
+308
+736
+2.39
+Ten pounder                   
+1,387
+1,347
+2,628
+1.95
+Bonefish                      
+17,410
+16,882
+20,227
+1.20
+Herrings/sardines             
+3,087
+2,557
+4,942
+1.93
+Milkfish                      
+1,067
+684
+816
+1.19
+Flying fishes                 
+1
+1
+2
+2.00
+Needlefishes                  
+392
+281
+491
+1.75
+Threadfin                     
+1,089
+512
+3,776
+7.38
+Mullets                       
+15,146
+9,910
+42,863
+4.33
+Pomfret                       
+430,647
+427,365
+1,448,671
+3.39
+Oilfish                       
+632,561
+632,385
+868,147
+1.37
+Jacks                         
+1,710
+1,652
+4,720
+2.86
+Kahala (amberjack)            
+15,822
+2,931
+5,224
+1.78
+Sasa ulua                     
+1,095
+452
+1,329
+2.94
+Butaguchi (pig
+-
+lipped ulua)   
+1,365
+487
+1,733
+3.56
+Dobe ulua                     
+1,319
+450
+1,100
+2.44
+Papa ulua                     
+8,613
+7,679
+30,292
+3.94
+White ulua                    
+19,443
+8,395
+19,999
+2.38
+Gunkan
+(black) ulua           
+1,590
+68
+307
+4.55
+Blue trevally                 
+6,803
+2,876
+7,033
+2.45
+Hapu’upu’u
+(
+Hawaiian grouper
+)   
+7,460
+6,691
+32,861
+4.91
+Blue spot grouper             
+5,391
+4,046
+13,788
+3.41
+Kalekale                      
+8,641
+6,666
+25,329
+3.80
+Snappers                      
+6,310
+4,509
+18,228
+4.04
+Yellow
+-
+tail 
+kale
+53
+14
+37
+2.60
+Ta’ape
+(
+blue
+-
+lined snapper
+)    
+41,132
+20,264
+34,148
+1.69
+Ehu (red snapper)             
+20,819
+15,150
+81,630
+5.39
+Gindai (flower snapper)       
+2,592
+1,603
+7,221
+4.50
+Golden kalekale               
+129
+18
+58
+3.18
+Lehi (silverjaw snapper, rusty jobfish)
+4,697
+4,065
+17,487
+4.30
+Onaga (red snapper)           
+46,362
+39,812
+313,755
+7.88
+Opakapaka (pink snapper)      
+101,882
+85,070
+506,495
+5.95
+Uku (gray snapper)            
+109,606
+94,285
+417,900
+4.43
+Snake mackerel                
+33
+0
+0
+0.00
+Porgy                         
+6,880
+5,006
+16,391
+3.27
+Reef fishes (unknown)         
+930
+0
+0
+1.00
+Reef jacks                    
+42
+16
+71
+4.45
+Squirrelfishes                
+64,057
+59,217
+254,277
+4.29
+Trumpetfish                   
+235
+220
+316
+1.43
+Scorpionfishes                
+2,845
+1,855
+8,932
+4.81
+Hawaiian flagtail
+2,090
+1,282
+5,160
+4.02
+Bigeyes/
+Glasseyes (
+priacanthids
+)
+3,205
+3,041
+11,121
+3.66
+Goatfishes                    
+58,692
+46,920
+234,879
+5.01
+Rudderfish                    
+27,714
+20,509
+29,571
+1.44
+Damselfishes                  
+2,590
+2,517
+7,684
+3.05
+Hawkfishes
+953
+953
+2,927
+3.07
+Tilapia                       
+3,316
+244
+285
+1.17
+Wrasses                       
+7,249
+4,851
+20,751
+4.28
+Parrotfishes                  
+73,168
+64,844
+223,873
+3.45
+Surgeonfishes/tangs           
+121,985
+103,274
+186,077
+1.80
+Flounders                     
+83
+35
+64
+1.84
+Filefishes                    
+715
+564
+766
+1.36
+Pufferfishes                  
+85
+0
+0
+0.00
+Pelagic fishes (unknown)      
+923
+213
+56
+0.26
+Moonfish (opah)               
+1,598,687
+1,564,413
+2,851,770
+1.82
+Rainbow runner                
+4,187
+2,537
+4,085
+1.61
+Mahimahi                      
+1,630,559
+1,427,608
+4,329,540
+3.03
+Barracudas                    
+57,873
+52,667
+49,957
+0.95
+Wahoo                         
+670,213
+567,595
+1,820,050
+3.21
+Tunas (unknown)               
+16,550
+16,550
+50,488
+3.05
+Skipjack tuna                 
+1,087,466
+636,553
+1,020,399
+1.60
+Yellowfin tuna                
+3,785,781
+3,435,331
+9,966,934
+2.90
+Albacore tuna                 
+1,769,968
+1,594,485
+2,561,062
+1.61
+Bigeye tuna                   
+13,130,325
+12,880,939
+53,082,591
+4.12
+Kawakawa                      
+6,132
+2,210
+5,630
+2.55
+Billfishes (unknown)          
+1,865
+665
+1,419
+2.13
+Swordfish                     
+3,589,984
+2,592,041
+6,669,056
+2.57
+Blue marlin                   
+1,229,031
+917,185
+1,240,448
+1.35
+Black marlin                  
+10,075
+337
+421
+1.25
+Striped marlin                
+919,517
+910,442
+1,135,735
+1.25
+Shortnose spearfish           
+535,765
+469,238
+528,443
+1.13
+Sailfish                      
+34,295
+17,897
+26,023
+1.45
+Spiny lobsters                
+10,604
+9,159
+115,307
+12.6
+Slipper lobsters              
+181
+3
+26
+8.50
+Crabs                         
+35,640
+11,092
+54,053
+4.87
+Shrimp (saltwater)            
+8,388
+1,169
+7,347
+6.28
+Octopus                       
+30,108
+19,792
+86,133
+4.35
+Squid                         
+3,185
+2,735
+7,028
+2.57
+Limpets (saltwater)           
+16,072
+8,260
+51,054
+6.18
+Invertebrates                 
+226
+183
+1,165
+6.37
+Algae                         
+13,398
+5,597
+47,072
+8.41

@@ -1,0 +1,87 @@
+Species Caught Sold Value Price/Lb.
+Miscellaneous                                                      4,220                       3,224                      $6,200           $ 1.92 
+Sharks                                                              533,693                   234,225                    $74,471           $ 0.32 
+Rays                                                                          18                              0                             $0           $ 0.00 
+Eels                                                                         764                          758                         $795           $ 1.05 
+Armorhead                                                                  4                              0                             $0           $ 0.00 
+Bigeye scad (akule)                                         742,443                   300,299                  $581,247           $ 1.94 
+Mackerel scad                                                 259,164                   171,931                  $351,523           $ 2.04 
+Leatherback                                                            512                          490                         $744           $ 1.52 
+Ten pounder                                                           472                          237                         $238           $ 1.01 
+Bonefish                                                              3,502                       2,807                      $3,128           $ 1.11 
+Herring/sardine                                                           5                              0                             $0           $ 0.00 
+Milkfish                                                               1,311                       1,212                      $1,438           $ 1.19 
+Flying fish                                                                18                              8                           $10           $ 1.22 
+Needlefish                                                              482                          204                         $364           $ 1.79 
+Threadfin                                                                278                          223                         $981           $ 4.40 
+Mullet                                                                10,769                     10,719                    $35,651           $ 3.33 
+Pomfret                                                            774,928                   765,712               $1,316,367           $ 1.72 
+Oilfish                                                              348,485                   345,557                  $568,642           $ 1.65 
+Jacks (misc)                                                         2,316                          483                      $1,451           $ 3.00 
+Amberjack                                                         10,815                          462                         $541           $ 1.17 
+Sasa ulua                                                                 712                          497                      $1,112           $ 2.24 
+Pig-lipped ulua                                                  29,147                     24,917                    $56,592           $ 2.27 
+Dobe ulua                                                          10,686                       3,314                      $5,573           $ 1.68 
+Papa ulua                                                             7,388                       2,675                      $6,862           $ 2.57 
+White ulua                                                         18,319                     13,015                    $20,690           $ 1.59 
+Black ulua                                                            3,538                       3,083                      $5,133           $ 1.67 
+Blue crevally                                                       7,895                       5,149                    $10,085           $ 1.96 
+Hawaiian grouper                                              48,258                     42,388                  $184,917           $ 4.36 
+Blue spot grouper                                                   713                          353                         $877           $ 2.49 
+Snappers                                                              3,397                       1,915                      $5,969           $ 3.12 
+Yellowtail kali                                                          71                            18                           $35           $ 1.92 
+Blue-lined snapper                                            47,432                     24,486                    $27,095           $ 1.11 
+Ehu (red snapper)                                              37,663                     34,752                  $144,709           $ 4.16 
+Gindai (flower snapper)                                      6,276                       5,627                    $19,291           $ 3.43 
+Golden kalekale                                                 10,922                       9,846                    $32,532           $ 3.30 
+Lehi (silverjaw)                                                   7,682                       7,357                    $26,270           $ 3.57 
+Onaga (red snapper)                                        168,955                   147,338                  $834,287           $ 5.66 
+Opakapaka (pink snapper)                              148,735                   138,568                  $727,329           $ 5.25 
+Uku (gray snapper)                                         169,241                   145,910                  $414,097           $ 2.84 
+Snake mackerel                                                          7                              4                             $2           $ 0.50 
+Porgy                                                                   2,000                       1,196                      $2,607           $ 2.18 
+Other reeffish                                                         113                              2                             $3           $ 1.25 
+Reef jacks                                                                 56                            55                         $167           $ 3.03 
+Squirrelfish                                                        40,719                     39,976                  $120,173           $ 3.01 
+Trumpetfish                                                                80                            48                              $73           $ 1.54 
+Scorpionfish                                                          3,039                       2,680                       $10,441           $ 3.90 
+Mountain bass                                                       2,210                       1,819                         $7,002           $ 3.85 
+Bigeyes                                                                15,635                     11,927                       $27,420           $ 2.30 
+Goatfish                                                               67,873                     49,189                     $119,459           $ 2.43 
+Rudderfish                                                           23,353                     21,648                       $23,303           $ 1.08 
+Damselfish                                                             1,900                       1,702                         $4,407           $ 2.59 
+Hawkfish                                                                  472                          472                         $1,097           $ 2.33 
+Tilapia                                                                      907                          907                         $1,476           $ 1.63 
+Wrasse                                                                   6,161                       4,713                       $20,658           $ 4.38 
+Parrotfish                                                             34,045                     31,111                       $83,782           $ 2.69 
+Surgeon/tangs                                                      89,159                     73,788                     $112,332           $ 1.52 
+Flounders                                                                    27                            24                              $25           $ 1.04 
+Filefish                                                                   4,077                       1,322                         $1,543           $ 1.17 
+Other pelagic                                                     801,674                   786,102                  $1,343,070           $ 1.71 
+Rainbow runner                                                     4,426                       4,111                         $7,739           $ 1.88 
+Mahimahi (dolphin)                                       2,279,738                2,213,156                  $4,892,455           $ 2.21 
+Barracudas                                                           41,663                     35,345                       $30,976           $ 0.88 
+Wahoo                                                               901,686                   846,104                  $2,185,722           $ 2.58 
+Japanese mackerel                                                        1                              0                                $0           $ 0.00 
+Misc tunas                                                           55,554                          292                         $2,362           $ 8.09 
+Skipjack tuna                                                  1,099,249                   873,592                  $1,146,020           $ 1.31 
+Yellowfin tuna                                                3,128,315                3,072,102                  $7,025,186           $ 2.29 
+Albacore                                                         1,131,105                1,125,962                  $1,489,194           $ 1.32 
+Bigeye tuna                                                  10,249,806                9,823,605                $28,721,664           $ 2.92 
+Kawakawa                                                             7,667                       3,318                         $4,775           $ 1.44 
+Other billfish                                                       14,635                          886                         $1,209           $ 1.36 
+Broadbill swordfish                                           534,256                   520,373                  $1,224,845           $ 2.35 
+Blue marlin                                                     1,003,880                   890,240                  $1,106,404           $ 1.24 
+Black marlin                                                          9,582                       7,089                       $11,039           $ 1.56 
+Striped marlin                                                    953,699                   932,731                  $1,346,726           $ 1.44 
+Shortnose spearfish                                           447,191                   442,451                     $430,509           $ 0.97 
+Sailfish                                                                17,038                       7,581                         $9,758           $ 1.29 
+Spiny lobster                                                         8,402                       6,371                       $72,043          $11.31 
+Slipper lobster                                                            41                              7                              $56           $ 8.00 
+Crabs                                                                   24,769                     13,234                       $52,497           $ 3.97 
+Shrimp (saltwater)                                                 1,172                            30                            $270           $ 9.00 
+Octopus                                                               22,716                     20,239                       $60,736           $ 3.00 
+Squid                                                                        801                          535                         $1,165           $ 2.18 
+Limpets (saltwater)                                                8,807                       4,572                       $33,697           $ 7.37 
+Invertebrates                                                        15,149                       8,925                     $261,550          $29.31 
+Algae                                                                   16,710                       6,206                       $27,100           $ 4.37 

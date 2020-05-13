@@ -1,0 +1,86 @@
+Species                                                                               Pounds             Value ($)       Price/Lb ($) 
+        Amberjack                                                                                  80                      200             2.50               
+        Greater amberjack                                                                 1,172                   2,601             2.22               
+        Barracudas                                                                             1,398                   3,250             2.32               
+        Bottomfishes (unknown)                                                       8,701                 20,463             2.35             
+        Butterflyfishes                                                                            29                        70             2.43               
+        Giant clam                                                                             1,063                   1,063             1.00               
+        Crabs                                                                                        440                      612             1.39             
+        Eels                                                                                           124                      311             2.50               
+        Moray eels                                                                                154                      328             2.13               
+        Bigeye emperor                                                                          68                      160             2.36               
+        Longnose emperor                                                                3,689                   8,625             2.34               
+        Orangespot emperor                                                                 397                      985             2.48               
+        Redgill emperor                                                                     1,278                   2,988             2.34               
+        Emperors                                                                               2,417                   5,858             2.42               
+        Filefishes                                                                                  226                      502             2.22               
+        Flounders                                                                                  220                      359             1.63             
+        Blue lined gindai                                                                      133                      267             2.00               
+        Goatfishes                                                                                 121                      288             2.39               
+        Blacktip grouper                                                                           7                        14             2.17               
+        Lunartail grouper                                                                      616                   1,419             2.30               
+        Peacock grouper                                                                       111                      256             2.31               
+        Tomato grouper                                                                        141                      296             2.10               
+        Yellowspot grouper                                                                    58                      142             2.43               
+        Groupers                                                                                   901                   2,083             2.31             
+        Inshore groupers                                                                       474                   1,155             2.44             
+        Black jack                                                                                 893                   1,939             2.17               
+        Jacks                                                                                         724                   1,732             2.39               
+        Gray jobfish                                                                          2,338                   5,572             2.38               
+        Smalltooth jobfish (lehi)                                                       3,077                   7,025             2.28               
+        Spiny lobster                                                                         2,327                   9,874             4.24               
+        Mackerel                                                                                3,978                   6,274             1.58               
+        Mahimahi                                                                            25,916                 46,816             1.81               
+        Black marlin                                                                             620                      620             1.00               
+        Blue marlin                                                                          64,135                 69,003             1.08               
+        Striped marlin                                                                        1,508                   1,432             0.95               
+        Mullets                                                                                       54                      174             3.23             
+        Octopus                                                                                 1,964                   5,042             2.57             
+        Oilfish                                                                                         44                        26             0.60               
+        Moonfish                                                                               4,096                   5,734             1.40               
+        Yelloweye opakapaka                                                               286                      622             2.18               
+        Parrotfishes                                                                            4,833                 12,104             2.50             
+        Pelagic fishes (unknown)                                                      4,341                 10,852             2.50               
+        Terapon perch                                                                             57                      114             2.00               
+        Pomfret                                                                                     807                   1,744             2.16               
+        Spiny pufferfish                                                                          51                      114             2.25               
+        Rainbow runner                                                                        207                      459             2.21        
+        Rudderfishes                                                                             163                      371             2.27               
+        Sailfish                                                                                  2,092                   3,050             1.46               
+        Bigeye scad                                                                           2,393                   4,228             1.77               
+        Sergeant major                                                                         264                      592             2.24               
+        Sharks                                                                                       510                      545             1.07               
+        Shrimp                                                                                        95                      669             7.04             
+        Black snapper                                                                             74                      156             2.10               
+        Blue lined snapper                                                                 1,723                   4,162             2.42             
+        Flower snapper (gindai)                                                           623                   1,645             2.64             
+        Humpback snapper                                                                3,933                   9,263             2.35               
+        Longtail snapper (onaga)                                                       2,811                   6,463             2.30               
+        Onespot snapper                                                                         83                      192             2.33               
+        Pink snapper (opakapaka)                                                          73                      169             2.32             
+        Squirrel snapper (ehu)                                                           1,018                   3,296             3.24             
+        Stone's snapper                                                                         536                   1,154             2.15               
+        Yellowtail snapper                                                                    337                      611             1.81               
+        Inshore snappers                                                                         77                      195             2.54               
+        Soldierfishes                                                                             725                   1,903             2.62               
+        Spearfish                                                                                1,012                   1,063             1.05               
+        Squirrelfishes                                                                        1,017                   2,352             2.31             
+        Surgeonfishes/tangs                                                             10,338                 23,586             2.28             
+        Sweepers                                                                               1,693                   4,647             2.74               
+        Sweetlips                                                                                  160                      480             3.00               
+        Swordfish                                                                            19,141                 51,430             2.69               
+        Threadfins                                                                                  25                        49             2.00               
+        Tilapia                                                                                   1,391                   1,779             1.28             
+        Bigeye trevally                                                                         237                      568             2.40               
+        Bluefin trevally                                                                            7                        17             2.49               
+        Trevallys                                                                                     97                      228             2.36               
+        Triggerfishes                                                                              13                        30             2.25               
+        Albacore tuna                                                               11,438,447          11,467,541             1.00               
+        Bigeye tuna                                                                       509,736               567,360             1.11                
+        Dogtooth tuna                                                                           788                   1,775             2.25               
+        Kawakawa                                                                                  98                      138             1.41               
+        Skipjack tuna                                                                     373,135               210,543             0.56               
+        Yellowfin tuna                                                                1,406,368            1,341,543             0.95               
+        Unicornfishes                                                                        1,849                   4,198             2.27             
+        Wahoo                                                                               436,874               266,829             0.61               
+        Wrasses                                                                                    147                      361             2.45                      

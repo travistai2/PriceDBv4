@@ -1,0 +1,58 @@
+Species Pounds Value Price/Lb 
+       Bigeye scad                                                                    321                 $691                $2.16     
+       Jacks (misc)       							       16                   $43                $2.75       
+       Black jack                                                                       658              $1,207                $1.83       
+       Bigeye trevally                                                                755              $1,660                $2.20       
+       Barracudas                                                                  1,166              $2,389                $2.05       
+       Mullets                                                                              23                   $45                $2.00       
+       Groupers (misc)                                                                90                 $181                $2.00       
+       Peacock grouper                                                              19                   $37                $2.00       
+       Tomato grouper                                                              205                 $432                $2.11       
+       Blacktip grouper                                                                28                   $75                $2.67       
+       Lunartail grouper                                                         1,519              $3,157                $2.08       
+       Blue lined snapper                                                       6,008            $12,071                $2.01       
+       Onespot snapper                                                              90                 $236                $2.62       
+       Twinspot/red snapper                                                       13                   $26                $2.00       
+       Humpback snapper                                                     3,599            $10,377                $2.88       
+       Gray jobfish                                                                 1,794              $3,596                $2.00       
+       Yellow opakapaka                                                        1,679              $4,848                $2.89       
+       Hawaiian opakapaka                                                      356                 $768                $2.16       
+       Gindai (flower snap)                                                       226                 $549                $2.43     
+       Yellowtail snapper                                                           482              $1,206                $2.50       
+       Lehi (silverjaw)                                                                863              $2,597                $3.01       
+       Onaga (longtail snapper)                                             3,267               $6,111                $1.87       
+       Ehu (squirrelfish snap.)                                               3,261              $9,747                $2.99       
+       Black snapper                                                                   42                   $83                $2.00       
+       Bigeye emperor                                                              120                 $239                $2.00       
+       Emperors (misc)                                                        10,359            $26,355                $2.54       
+       Longnose emperor                                                         579              $1,157                $2.00       
+       Orangespot emperor                                                      223                 $445                $2.00       
+       Redgill emperor                                                           2,518              $5,070                $2.01       
+       Oilfish                                                                              246                 $369                $1.50       
+       Pomfret                                                                        2,604              $6,509                $2.50       
+       Rudderfish                                                                        46                   $91                $2.00       
+       Surgeonfishes/tangs                                                    5,003            $10,006                $2.00     
+       Unicornfishes (misc)                                                    1,088              $1,130                $1.04       
+       Squirrelfish                                                                      932              $1,847                $1.98     
+       Parrotfishes                                                                 6,731            $13,338                $1.98     
+       Inshore groupers                                                            965              $1,900                $1.97     
+       Triggerfish                                                                         27                   $53                $2.00       
+       Striped Marlin                                                              5,276              $6,595                $1.25       
+       Mahimahi                                                                   49,544            $78,872                $1.59       
+       Swordfish                                                                     1,663              $3,542                $2.13     
+       Blue marlin                                                                 12,410            $14,699                $1.18       
+       Black marlin                                                                 2,456              $2,398                $0.98       
+       Sailfish                                                                         3,117              $3,336                $1.07       
+       Spearfish                                                                        645                 $968                $1.50       
+       Rainbow runner                                                              200                 $401                $2.00       
+       Wahoo                                                                       73,549            $79,120                $1.08       
+       Skipjack Tuna                                                          126,849            $74,189                $0.58       
+       Dogtooth tuna                                                              1,363              $1,938                $1.42       
+       Albacore                                                               7,122,030       $7,623,542                $1.07       
+       Yellowfin Tuna                                                         395,607          $361,161                $0.91       
+       BigeyeTuna                                                             151,336          $177,084                $1.17       
+       Kawakawa                                                                          3                     $3                $1.00       
+       Moonfish                                                                      2,898              $2,861                $0.99       
+       Crabs                                                                              134                 $201                $1.50       
+       Spiny lobster                                                                1,484              $5,048                $3.40       
+       Octopus                                                                          171                 $355                $2.07     

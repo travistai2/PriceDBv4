@@ -1,0 +1,172 @@
+Species
+Pounds
+Value ($)
+Price/Lb ($)
+Bigeye scad              
+25,765
+64,366
+2.50
+Jacks                    
+2,294
+5,637
+2.46
+Black jack               
+130
+326
+2.51
+Giant trevally           
+55
+136
+2.50
+Bottomfishes (unknown)   
+4,802
+12,082
+2.52
+Sickle pomfret           
+511
+1,201
+2.35
+Ehu (red snapper)        
+2,784
+10,018
+3.60
+Gindai (flower snapper)  
+2,492
+9,062
+3.64
+Groupers                 
+768
+2,240
+2.92
+Kalikali (yellowtail)    
+2,441
+6,015
+2.46
+Onaga (red snapper)      
+3,634
+15,519
+4.27
+Opakapaka (pink snapper) 
+4,257
+11,556
+2.71
+Jobfish (uku)            
+1,780
+3,708
+2.08
+Silvermouth (deep lehi)  
+1,042
+2,945
+2.83
+Amberjack                
+326
+868
+2.66
+Blue lined snapper       
+1,478
+3,670
+2.48
+Reef fishes (unknown)    
+38,528
+98,236
+2.55
+Wrasses                  
+365
+873
+2.39
+Rabbitfishes             
+1,687
+5,095
+3.02
+Emperors                 
+12,768
+32,034
+2.51
+Squirrelfishes           
+215
+536
+2.50
+Parrotfishes             
+26,547
+82,435
+3.11
+Surgeonfishes            
+2,432
+5,226
+2.15
+Orangespine unicornfish  
+313
+782
+2.50
+Unicornfishes            
+1,296
+3,333
+2.57
+Goatfishes               
+830
+2,077
+2.50
+Bigeye emperor           
+125
+314
+2.50
+Pelagic fishes (unknown) 
+125
+251
+2.00
+Barracudas               
+24
+35
+1.50
+Mahimahi                 
+20,030
+35,743
+1.78
+Blue marlin              
+82
+123
+1.50
+Sailfish                 
+162
+243
+1.50
+Rainbow runner           
+1,827
+3,612
+1.98
+Wahoo                    
+3,500
+6,999
+2.00
+Skipjack tuna            
+133,794
+217,460
+1.63
+Dogtooth tuna            
+2,758
+4,599
+1.67
+Yellowfin tuna           
+26,463
+52,061
+1.97
+Kawakawa (saba)          
+1,521
+2,311
+1.52
+Spiny lobster            
+881
+4,385
+4.98
+Slipper lobster          
+165
+827
+5.00
+Octopus                  
+503
+1,032
+2.05
+Squid                    
+8
+16
+2.00

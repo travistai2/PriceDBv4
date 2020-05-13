@@ -1,0 +1,48 @@
+Species  Pounds Value Price/Lb. 
+Unknown                                                                     65                     $162                    $2.50 
+Fillets                                                                           19                       $42                    $2.25 
+Miscellaneous                                                            286                     $858                    $3.00 
+Bigeye scad (atulai)                                                   982                  $3,004                    $3.06 
+Black jack                                                               2,304                  $5,274                    $2.29 
+Jacks                                                                       2,364                  $5,845                    $2.47 
+Napoleon wrasse                                                        191                     $515                    $2.69 
+Sharks                                                                          21                       $51                    $2.50 
+Eel (freshwater - old code)                                          11                       $42                    $4.00 
+Milkfish                                                                       37                       $94                    $2.52 
+Bottom fish                                                                  52                       $26                    $0.50 
+Alfonsin                                                                         9                         $9                    $1.00 
+Ehu (red snapper)                                                      396                  $1,549                    $3.91 
+Gindai (flower snapper)                                             740                  $2,770                    $3.74 
+Grouper                                                                   2,006                  $5,434                    $2.71 
+Kalikali (pink snapper)                                              403                  $1,233                    $3.06 
+Lehi (silverjaw)                                                         904                  $3,285                    $3.64 
+Onaga (red snapper)                                                5,020                $23,926                    $4.77 
+Opakapaka (pink snapper)                                         347                  $1,379                    $3.97 
+Uku (gray snapper)                                                 1,676                  $4,107                    $2.45 
+Tagafi (red snapper)                                                     57                     $109                    $1.91 
+Amberjack                                                                 964                  $2,607                    $2.70 
+Reef fish                                                                86,307              $252,000                    $2.92 
+Wrasse                                                                    1,396                  $3,756                    $2.69 
+Rabbitfish                                                                  879                  $2,576                    $2.93 
+Rudderfish (guilli)                                                     374                  $1,064                    $2.85 
+Mafute (emperor)                                                    3,886                  $9,985                    $2.57 
+Parrotfish                                                                1,164                  $3,039                    $2.61 
+Snapper                                                                      621                  $1,628                    $2.62 
+Surgeonfish                                                                707                  $1,890                    $2.67 
+Unicornfish                                                           22,861                $61,218                    $2.68 
+Goatfish                                                                     227                     $588                    $2.59 
+Troll fish                                                                      32                       $65                    $2.00 
+Barracuda                                                                1,801                  $3,260                    $1.81 
+Mahi/dolphinfish                                                  81,266              $121,632                    $1.50 
+Marlin                                                                   22,849                $24,470                    $1.07 
+Spearfish                                                                    108                     $111                    $1.03 
+Sailfish                                                                    1,398                  $1,757                    $1.26 
+Rainbow runner                                                      4,313                  $7,108                    $1.65 
+Monchong                                                               1,384                  $2,991                    $2.16 
+Wahoo                                                                   34,545                $67,308                    $1.95 
+Bonita/skipjack tuna                                             34,212                $36,264                    $1.06 
+Dogtooth tuna                                                         2,581                  $2,824                    $1.09 
+Yellowfin tuna                                                      28,610                $58,411                    $2.04 
+Crabs (misc)                                                                 25                       $73                    $2.87 
+Lobster                                                                    2,704                  $9,182                    $3.40 
+Octopus                                                                   4,860                $12,516                    $2.58 

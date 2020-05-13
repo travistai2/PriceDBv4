@@ -1,0 +1,196 @@
+Species
+Pounds
+Value ($)
+Price/Lb ($)
+Bigeye scad (atulai)
+24,798
+59,341
+2.39
+Jacks                    
+560
+1,378
+2.46
+Mullet                   
+318
+796
+2.51
+Black jack               
+528
+1,169
+2.22
+Giant trevally           
+96
+168
+1.75
+Bottomfishes (unknown)   
+228
+569
+2.50
+Sickle 
+pomfret
+2,608
+5,411
+2.08
+Ehu (red snapper)        
+1,736
+6,494
+3.74
+Gindai (flower snapper)  
+1,042
+3,868
+3.71
+Blue
+-
+lined 
+gindai
+(ornate jobfish)
+188
+409
+2.18
+Groupers                 
+410
+1,186
+2.89
+Kalikali (yellowtail
+, goldflag jobfish
+)    
+4,229
+10,734
+2.54
+Onaga (red snapper)      
+3,292
+14,136
+4.29
+Opakapaka (pink snapper) 
+2,908
+8,747
+3.01
+Green jobfish (uku)
+816
+1,620
+1.99
+Silvermouth (
+silverjaw snapper, rusty jobfish, 
+deep lehi)  
+406
+1,208
+2.97
+Eight banded grouper     
+238
+772
+3.25
+Giant coral trout        
+16
+41
+2.50
+Yellow banded grouper    
+238
+475
+2.00
+Blue
+-
+lined snapper       
+1,878
+4,233
+2.25
+Reef fishes (unknown)    
+21,386
+58,270
+2.72
+Wrasses                  
+55
+144
+2.61
+Rabbitfishes
+3,978
+11,900
+2.99
+Emperors                 
+3,696
+9,236
+2.50
+Squirrelfishes           
+1,317
+3,258
+2.47
+Soldierfishes
+100
+150
+1.50
+Parrotfishes             
+13,214
+40,852
+3.09
+Surgeonfishes
+4,643
+11,460
+2.47
+Orangespine
+unicornfish
+2,804
+7,009
+2.50
+Unicornfishes
+2,229
+5,572
+2.50
+Goatfishes               
+3,473
+8,939
+2.57
+Bluespine unicornfish
+1,804
+4,525
+2.51
+Humphead wrasse          
+113
+225
+2.00
+Mahimahi                 
+19,361
+36,988
+1.91
+Blue marlin              
+175
+350
+2.00
+Sailfish                 
+38
+56
+1.50
+Rainbow runner           
+1,376
+2,793
+2.03
+Wahoo                    
+7,526
+14,891
+1.98
+Skipjack tuna            
+58,420
+113,308
+1.94
+Dogtooth tuna            
+3,093
+5,449
+1.76
+Yellowfin tuna           
+17,720
+33,765
+1.91
+Kawakawa (saba)          
+1,779
+3,577
+2.01
+Spiny lobster            
+810
+5,256
+6.49
+Octopus                  
+1,393
+2,938
+2.11
+Squid                    
+63
+156
+2.50

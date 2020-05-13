@@ -1,0 +1,259 @@
+Species
+Pounds
+Value ($)
+Price/Lb ($)
+Greater amberjack         
+337
+861
+2.55
+Barracudas                
+425
+1,122
+2.64
+Bigeye bream              
+261
+576
+2.21
+Paeony bulleye            
+20
+49
+2.49
+Crabs                     
+23
+59
+2.60
+Eels                      
+192
+577
+3.00
+Ambon emperor             
+360
+947
+2.63
+Longnose emperor          
+806
+2,066
+2.56
+Redgill emperor           
+1,599
+4,157
+2.60
+Emperors                  
+836
+2,178
+2.61
+Filefishes                
+139
+367
+2.63
+Flagtails                 
+32
+97
+2.99
+Goatfishes                
+12
+31
+2.57
+Longspine grouper         
+105
+289
+2.75
+Peacock grouper           
+224
+590
+2.63
+Groupers                  
+631
+1,735
+2.75
+Inshore groupers          
+485
+1,312
+2.71
+Black jack                
+728
+1,837
+2.52
+Jacks                     
+15
+38
+2.50
+Brown jobfish             
+21
+56
+2.70
+Goldflag jobfish          
+235
+620
+2.64
+Gray jobfish              
+1,123
+2,909
+2.59
+Silverjaw jobfish (lehi)  
+1,088
+2,992
+2.75
+Spiny lobster             
+3,905
+15,149
+3.88
+White
+-
+edged lyretail      
+302
+795
+2.63
+Mackerel                  
+10
+25
+2.51
+Mahimahi                  
+13,580
+33,949
+2.50
+Black marlin              
+40
+100
+2.50
+Blue marlin               
+75,550
+132,211
+1.75
+Striped marlin            
+3,038
+3,314
+1.09
+Octopus                   
+158
+404
+2.56
+Moonfish                  
+194
+484
+2.50
+Parrotfishes              
+9,243
+26,605
+2.88
+Terapon perch             
+69
+181
+2.62
+Pomfret                   
+467
+1,052
+2.25
+Spiny pufferfish          
+64
+96
+1.50
+Rabbitfishes              
+12
+30
+2.57
+Rainbow runner            
+172
+474
+2.75
+Humpback snapper          
+2,570
+7,068
+2.75
+Longtail snapper (onaga)  
+846
+2,348
+2.78
+Onespot snapper           
+82
+216
+2.64
+Ruby snapper (ehu)        
+520
+1,660
+3.19
+Stone's snapper           
+12
+32
+2.74
+Twinspot/red snapper      
+101
+252
+2.50
+Pink snapper (opakapaka)  
+343
+890
+2.60
+Soldierfishes             
+75
+195
+2.60
+Spearfish                 
+2,244
+2,581
+1.15
+Squirrelfishes            
+1,616
+4,234
+2.62
+Surgeonfishes/tangs       
+8,666
+23,063
+2.66
+Swordfish                 
+17,564
+30,887
+1.76
+Bigeye trevally           
+50
+137
+2.75
+Bluefin trevally          
+30
+105
+3.50
+Trevallys                 
+56
+150
+2.70
+Triggerfishes             
+11
+28
+2.50
+Albacore tuna             
+8,653,117
+8,653,117
+1.00
+Bigeye tuna               
+378,595
+416,894
+1.10
+Dogtooth tuna             
+177
+443
+2.50
+Kawakawa                  
+323
+485
+1.50
+Skipjack tuna             
+248,621
+153,508
+0.62
+Yellowfin tuna            
+971,667
+882,488
+0.91
+Unicornfishes             
+5,816
+15,887
+2.73
+Wahoo                     
+281,139
+171,494
+0.61
+Wrasses                   
+152
+356
+2.35
+

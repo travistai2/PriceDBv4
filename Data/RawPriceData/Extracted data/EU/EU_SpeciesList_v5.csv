@@ -1,0 +1,959 @@
+"Species","CommonName","Name","TaxonKey"
+"Aquatic animals","Aquatic animals","Aquatic animals",100000
+"Carps, barbels and other cyprinids","Carps, barbels and other cyprinids","Carps, barbels and other cyprinids",100011
+"Sturgeons, paddlefishes","Sturgeons, paddlefishes","Sturgeons, paddlefishes",100021
+"Miscellaneous diadromous fishes","Miscellaneous diadromous fishes","Miscellaneous diadromous fishes",100025
+"Diadromous fishes","Diadromous fishes","Diadromous fishes",100025
+"Flounders, halibuts, soles","Flounders, halibuts, soles","Flounders, halibuts, soles",100031
+"Anchovia macrolepidota","Bigscale anchovy","Bigscale anchovy - Anchovia macrolepidota",100035
+"Clupeoidei","Clupeoids nei","Clupeoids nei - Clupeoidei",100035
+"Herrings, sardines, anchovies","Herrings, sardines, anchovies","Herrings, sardines, anchovies",100035
+"Tunas, bonitos, billfishes","Tunas, bonitos, billfishes","Tunas, bonitos, billfishes",100036
+"Marine fishes not identified","Marine fishes not identified","Marine fishes not identified",100039
+"Marine fishes","Marine fishes","Marine fishes",100039
+"Osteichthyes","Marine fishes nei","Marine fishes nei - Osteichthyes",100039
+"Homarus spp","Homarus spp","Homarus spp",100043
+"rock lobsters","Lobsters, spiny","Lobsters, spiny-rock lobsters",100043
+"lobsters","King crabs, squat","King crabs, squat-lobsters",100044
+"Solenocera membranacea","Atlantic mud shrimp","Atlantic mud shrimp - Solenocera membranacea",100045
+"Argis lar","Kuro shrimp","Kuro shrimp - Argis lar",100045
+"Shrimps, prawns","Shrimps, prawns","Shrimps, prawns",100045
+"Xiphopenaeus spp","Xiphopenaeus shrimps nei","Xiphopenaeus shrimps nei - Xiphopenaeus spp",100045
+"Miscellaneous marine crustaceans","Miscellaneous marine crustaceans","Miscellaneous marine crustaceans",100047
+"Oysters","Oysters","Oysters",100053
+"Mussels","Mussels","Mussels",100054
+"Clams, cockles, arkshells","Clams, cockles, arkshells","Clams, cockles, arkshells",100056
+"Miscellaneous marine molluscs","Miscellaneous marine molluscs","Miscellaneous marine molluscs",100058
+"Mollusca","Marine molluscs nei","Marine molluscs nei - Mollusca",100058
+"Molluscs","Molluscs","Molluscs",100058
+"Pholas dactylus","Common piddock","Common piddock - Pholas dactylus",100058
+"Invertebrata","Aquatic invertebrates nei","Aquatic invertebrates nei - Invertebrata",100077
+"Miscellaneous aquatic invertabrates","Miscellaneous aquatic invertabrates","Miscellaneous aquatic invertabrates",100077
+"Finfish","Finfish","Finfish",100139
+"Osteichthyes","Finfishes nei","Finfishes nei - Osteichthyes",100139
+"Echinodermata","Echinoderms","Echinoderms - Echinodermata",100176
+"Osteichthyes","Groundfishes nei","Groundfishes nei - Osteichthyes",100239
+"urchins and other echinoderms","Sea","Sea-urchins and other echinoderms",100276
+"Chondrichthyes","Cartilaginous fishes nei","Cartilaginous fishes nei - Chondrichthyes",100338
+"Sharks, rays, chimaeras","Sharks, rays, chimaeras","Sharks, rays, chimaeras",100338
+"Osteichthyes","Pelagic fishes nei","Pelagic fishes nei - Osteichthyes",100339
+"Natantia","Natantian decapods nei","Natantian decapods nei - Natantia",100345
+"Plesionika edwardsii","Striped soldier shrimp","Striped soldier shrimp - Plesionika edwardsii",100345
+"Plesionika ensis","Striped gladiator shrimp","Striped gladiator shrimp - Plesionika ensis",100345
+"Plesionika martia","Golden shrimp","Golden shrimp - Plesionika martia",100345
+"Plesionika spp","Plesionika shrimps nei","Plesionika shrimps nei - Plesionika spp",100345
+"Solenoceridae","Solenocerid shrimps nei","Solenocerid shrimps nei - Solenoceridae",100345
+"Elasmobranchii","Sharks,Rays,Skates, etc, nei ","Sharks,Rays,Skates, etc, nei - Elasmobranchii",200004
+"Squalidae, Scyliorhinidae","Dogfishes,Hounds, nei ","Dogfishes,Hounds, nei - Squalidae, Scyliorhinidae",200007
+"Selachimorpha (Pleurotremata)","Various sharks nei","Various sharks nei - Selachimorpha (Pleurotremata)",200007
+"Cephalopoda","Cephalopods nei","Cephalopods nei - Cephalopoda",290002
+"Squids, cuttlefishes, octopuses","Squids, cuttlefishes, octopuses","Squids, cuttlefishes, octopuses",290002
+"Bivalvia","Clams etc, nei ","Clams etc, nei - Bivalvia",290004
+"Circomphalus casinus","Chamber venus","Chamber venus - Circomphalus casinus",290004
+"squirts and other tunicates","Sea","Sea-squirts and other tunicates",290005
+"squirts nei","Sea","Sea-squirts nei - Ascidiacea",290005
+"Gastropoda","Gastropods nei","Gastropods nei - Gastropoda",290006
+"Sphaerechinus granularis","Violet sea urchin","Violet sea urchin - Sphaerechinus granularis",290011
+"urchins etc, nei ","Sea","Sea-urchins etc, nei - Echinoidea",290011
+"cucumbers nei","Sea","Sea-cucumbers nei - Holothurioidea",290012
+"Crustacea","Marine crustaceans nei","Marine crustaceans nei - Crustacea",290022
+"Crustaceans","Crustaceans","Crustaceans",290022
+"Chimaeriformes","Chimaeras etc, nei ","Chimaeras etc, nei - Chimaeriformes",300003
+"Squaliformes","Dogfish sharks etc, nei ","Dogfish sharks etc, nei - Squaliformes",300009
+"Deania profundorum","Arrowhead dogfish","Arrowhead dogfish - Deania profundorum",300009
+"Rajiformes","Rays, Stingrays,Mantas, nei ","Rays, Stingrays,Mantas, nei - Rajiformes",300014
+"Dysomma anguillare","Shortbelly eel","Shortbelly eel - Dysomma anguillare",300026
+"Echelus myrus","Painted eel","Painted eel - Echelus myrus",300026
+"eel","Pygmy shore","Pygmy shore-eel - Alabes parvulus",300026
+"eel","Pink cusk","Pink cusk-eel - Genypterus blacodes",300026
+"Synaphobranchus kaupii","Kaup's arrowtooth eel","Kaup's arrowtooth eel - Synaphobranchus kaupii",300026
+"Gilchristella aestuarius","Gilchrist's round herring","Gilchrist's round herring - Gilchristella aestuarius",300028
+"Gadiformes","Gadiformes nei","Gadiformes nei - Gadiformes",300044
+"Cods, hakes, haddocks","Cods, hakes, haddocks","Cods, hakes, haddocks",300044
+"Gadus spp","Northern cods nei","Northern cods nei - Gadus spp",300044
+"Perciformes","Pelagic percomorphs nei","Pelagic percomorphs nei - Perciformes",300060
+"Perciformes","Demersal percomorphs nei","Demersal percomorphs nei - Perciformes",300060
+"Callionymus lyra","Dragonet","Dragonet - Callionymus lyra",300060
+"Centracanthus cirrus","Curled picarel","Curled picarel - Centracanthus cirrus",300060
+"Cubiceps gracilis","Driftfish","Driftfish - Cubiceps gracilis",300060
+"Tetragonurus cuvieri","Smalleye squaretail","Smalleye squaretail - Tetragonurus cuvieri",300060
+"Pleuronectiformes","Flatfishes nei","Flatfishes nei - Pleuronectiformes",300061
+"Citharidae","Citharids nei","Citharids nei - Citharidae",300061
+"Batoidimorpha (Hypotremata)","Batoid fishes nei","Batoid fishes nei - Batoidimorpha (Hypotremata)",300063
+"Alloteuthis africana","African squid","African squid - Alloteuthis africana",390002
+"Loliginidae, Ommastrephidae","Various squids nei","Various squids nei - Loliginidae, Ommastrephidae",390002
+"Alloteuthis media","Midsize squid","Midsize squid - Alloteuthis media",390002
+"Alloteuthis subulata","European common squid","European common squid - Alloteuthis subulata",390002
+"armed squid","Long","Long-armed squid - Chiroteuthis veranyi",390002
+"Illex spp","Shortfin squids nei","Shortfin squids nei - Illex spp",390002
+"Ommastrephes caroli","Webbed flying squid","Webbed flying squid - Ommastrephes caroli",390002
+"Ommastrephes pteropus","Orangeback flying squid","Orangeback flying squid - Ommastrephes pteropus",390002
+"Ommastrephes spp","Flying squids nei","Flying squids nei - Ommastrephes spp",390002
+"Sepietta oweniana","Common bobtail squid","Common bobtail squid - Sepietta oweniana",390002
+"Sepiola bobtail squids nei","Sepiola bobtail squids nei","Sepiola bobtail squids nei",390002
+"Sepiola rondeleti","Dwarf bobtail squid","Dwarf bobtail squid - Sepiola rondeleti",390002
+"Thysanoteuthis rhombus","Diamondback squid","Diamondback squid - Thysanoteuthis rhombus",390002
+"Todaropsis eblanae","Lesser flying squid","Lesser flying squid - Todaropsis eblanae",390002
+"Sepiidae, Sepiolidae","Cuttlefish, Bobtail squids, nei ","Cuttlefish, Bobtail squids, nei - Sepiidae, Sepiolidae",390006
+"Abalones, winkles, conchs","Abalones, winkles, conchs","Abalones, winkles, conchs",390011
+"Arenaeus cribarius","Speckled swimcrab","Speckled swimcrab - Arenaeus cribarius",390013
+"Calappa granulata","Shamefaced crab","Shamefaced crab - Calappa granulata",390013
+"Cancer bellianus","Toothed rock crab","Toothed rock crab - Cancer bellianus",390013
+"Carcinus spp","Carcinus crabs nei","Carcinus crabs nei - Carcinus spp",390013
+"Eriphia verrucosa","Warty crab","Warty crab - Eriphia verrucosa",390013
+"Petromyzonidae","Lampreys nei","Lampreys nei - Petromyzonidae",400001
+"Lamnidae","Mackerel sharks, Porbeagles, nei ","Mackerel sharks, Porbeagles, nei - Lamnidae",400009
+"Scyliorhinidae","Catsharks etc, nei ","Catsharks etc, nei - Scyliorhinidae",400010
+"Carcharhinidae","Requiem sharks nei","Requiem sharks nei - Carcharhinidae",400011
+"Squalidae","Dogfish sharks nei","Dogfish sharks nei - Squalidae",400013
+"Squatinidae","Angelsharks, Sand devils, nei ","Angelsharks, Sand devils, nei - Squatinidae",400015
+"Squatina aculeata","Sawback angelshark","Sawback angelshark - Squatina aculeata",400015
+"Rhinobatidae","Guitarfishes etc, nei ","Guitarfishes etc, nei - Rhinobatidae",400017
+"Torpedinidae","Electric rays nei","Electric rays nei - Torpedinidae",400018
+"Rajidae","Rays and skates nei","Rays and skates nei - Rajidae",400019
+"Dasyatidae","Stingrays, Butterfly rays, nei ","Stingrays, Butterfly rays, nei - Dasyatidae",400020
+"Taeniura grabata","Round stingray","Round stingray - Taeniura grabata",400020
+"Myliobatidae","Eagle rays","Eagle rays - Myliobatidae",400022
+"Acipenseridae","Sturgeons nei","Sturgeons nei - Acipenseridae",400032
+"Clupeidae","Herrings, Sardines, nei ","Herrings, Sardines, nei - Clupeidae",400043
+"Muraenidae","Morays","Morays - Muraenidae",400056
+"Enchelycore anatina","Fangtooth moray","Fangtooth moray - Enchelycore anatina",400056
+"Muraena spp","Muraena spp","Muraena spp",400056
+"Congridae","Conger eels etc, nei ","Conger eels etc, nei - Congridae",400062
+"Conger spp","Conger eels nei","Conger eels nei - Conger spp",400062
+"Diploconger polystigmatus","Diploconger polystigmatus","Diploconger polystigmatus",400062
+"Salmonidae","Salmonids nei","Salmonids nei - Salmonidae",400076
+"Salmonoidei","Salmonoids nei","Salmonoids nei - Salmonoidei",400076
+"Atherina hepsetus","Mediterranean sand smelt","Mediterranean sand smelt - Atherina hepsetus",400080
+"Ariidae","Sea catfishes nei","Sea catfishes nei - Ariidae",400145
+"Synodontidae","Lizardfishes nei","Lizardfishes nei - Synodontidae",400160
+"Synodus saurus","Atlantic lizardfish","Atlantic lizardfish - Synodus saurus",400160
+"Lampadena anoma","Anomalous lanternfish","Anomalous lanternfish - Lampadena anoma",400167
+"Moridae","Moras nei","Moras nei - Moridae",400180
+"Lepidion eques","North Atlantic codling","North Atlantic codling - Lepidion eques",400180
+"Eleginus navaga","Wachna cod (=Navaga)","Wachna cod (=Navaga) - Eleginus navaga",400183
+"Macrouridae","Grenadiers,Rattails, nei ","Grenadiers,Rattails, nei - Macrouridae",400185
+"Hymenocephalus italicus","Glasshead grenadier","Glasshead grenadier - Hymenocephalus italicus",400185
+"Lophiidae","Anglerfishes nei","Anglerfishes nei - Lophiidae",400190
+"Exocoetidae","Flyingfishes nei","Flyingfishes nei - Exocoetidae",400206
+"Cheilopogon heterurus","Cheilopogon heterurus","Cheilopogon heterurus",400206
+"Hirundichthys rondeletii","Black wing flyingfish","Black wing flyingfish - Hirundichthys rondeletii",400206
+"Belonidae","Needlefishes etc, nei ","Needlefishes etc, nei - Belonidae",400207
+"Scomberesocidae","Sauries nei","Sauries nei - Scomberesocidae",400208
+"Atherinidae","Silversides(=Sand smelts) nei","Silversides(=Sand smelts) nei - Atherinidae",400218
+"Trachichthyidae","Slimeheads nei","Slimeheads nei - Trachichthyidae",400236
+"Berycidae","Alfonsinos etc, nei ","Alfonsinos etc, nei - Berycidae",400240
+"Holocentridae","Squirrelfishes nei","Squirrelfishes nei - Holocentridae",400243
+"Zeidae","Dories nei","Dories nei - Zeidae",400249
+"Caproidae","Boarfishes nei","Boarfishes nei - Caproidae",400252
+"Fistularia spp","Flutemouth","Flutemouth - Fistularia spp",400254
+"Scorpaenidae","Scorpionfishes nei","Scorpionfishes nei - Scorpaenidae",400264
+"Triglidae","Gurnards,Searobins nei ","Gurnards,Searobins nei - Triglidae",400266
+"Serranidae","Groupers, Seabasses, nei ","Groupers, Seabasses, nei - Serranidae",400289
+"Priacanthidae","Bigeyes,Glasseyes,Bulleyes, nei ","Bigeyes,Glasseyes,Bulleyes, nei - Priacanthidae",400303
+"Apogonidae","Cardinalfishes etc, nei ","Cardinalfishes etc, nei - Apogonidae",400304
+"Apogon imberbis","Cardinal fish","Cardinal fish - Apogon imberbis",400304
+"Apogonichthys perdix","Perdix cardinalfish","Perdix cardinalfish - Apogonichthys perdix",400304
+"Branchiostegidae","Tilefishes nei","Tilefishes nei - Branchiostegidae",400308
+"Carangidae","Carangids nei","Carangids nei - Carangidae",400314
+"scale pomfret","Big","Big-scale pomfret - Taractichthys longipinnis",400319
+"Haemulidae (=Pomadasyidae)","Grunts, Sweetlips, nei ","Grunts, Sweetlips, nei - Haemulidae (=Pomadasyidae)",400327
+"Lethrinidae","Emperors(=Scavengers) nei","Emperors(=Scavengers) nei - Lethrinidae",400328
+"Sparidae","Porgies, Seabreams, nei ","Porgies, Seabreams, nei - Sparidae",400330
+"Sciaenidae","Croakers,Drums, nei ","Croakers,Drums, nei - Sciaenidae",400331
+"Umbrina ronchus","Fusca drum","Fusca drum - Umbrina ronchus",400331
+"Umbrina spp","Drums nei","Drums nei - Umbrina spp",400331
+"Mullidae","Goatfishes,Red mullets, nei ","Goatfishes,Red mullets, nei - Mullidae",400332
+"Kyphosidae","Sea chubs nei","Sea chubs nei - Kyphosidae",400339
+"leuciscus cepalus","Chub","Chub - leuciscus cepalus",400339
+"Mugilidae","Mullets nei","Mullets nei - Mugilidae",400359
+"Oedalechilus labeo","Boxlip mullet","Boxlip mullet - Oedalechilus labeo",400359
+"Sphyraenidae","Barracudas etc, nei ","Barracudas etc, nei - Sphyraenidae",400360
+"Polynemidae","Threadfins,Tasselfishes, nei ","Threadfins,Tasselfishes, nei - Polynemidae",400361
+"Labridae","Wrasses,Hogfishes, etc, nei ","Wrasses,Hogfishes, etc, nei - Labridae",400362
+"Centrolabrus exoletus","Rock cook","Rock cook - Centrolabrus exoletus",400362
+"Emerald wrasse","Emerald wrasse","Emerald wrasse",400362
+"Labrus bimaculatus","Cuckoo wrasse","Cuckoo wrasse - Labrus bimaculatus",400362
+"Labrus viridis","Green wrasse","Green wrasse - Labrus viridis",400362
+"rayed wrasse","Scale","Scale-rayed wrasse - Acantholabrus palloni",400362
+"Symphodus cinereus","Grey wrasse","Grey wrasse - Symphodus cinereus",400362
+"Symphodus wrasses nei","Symphodus wrasses nei","Symphodus wrasses nei",400362
+"Trachinidae","Weeverfishes nei","Weeverfishes nei - Trachinidae",400377
+"Stomias boa","Boa dragonfish","Boa dragonfish - Stomias boa",400383
+"Blenniidae","Combtooth blennies","Combtooth blennies - Blenniidae",400392
+"Blennius ocellaris","Butterfly blenny","Butterfly blenny - Blennius ocellaris",400392
+"Gobiidae","Gobies nei","Gobies nei - Gobiidae",400405
+"Gobius spp","Atlantic gobies nei","Atlantic gobies nei - Gobius spp",400405
+"Amblygobius albimaculatus","Butterfly goby","Butterfly goby - Amblygobius albimaculatus",400405
+"Acanthuridae","Surgeonfishes nei","Surgeonfishes nei - Acanthuridae",400412
+"Siganus spp","Spinefeet(=Rabbitfishes) nei","Spinefeet(=Rabbitfishes) nei - Siganus spp",400413
+"Gempylidae","Snake mackerels, Escolars, nei ","Snake mackerels, Escolars, nei - Gempylidae",400414
+"Trichiuridae","Hairtails, Scabbardfishes, nei ","Hairtails, Scabbardfishes, nei - Trichiuridae",400415
+"Scombridae","Mackerels nei","Mackerels nei - Scombridae",400416
+"Sarda spp","Bonitos nei","Bonitos nei - Sarda spp",400416
+"Thunnini","Tunas nei","Tunas nei - Thunnini",400416
+"Istiophoridae","Marlins, Sailfishes, etc nei ","Marlins, Sailfishes, etc nei - Istiophoridae",400419
+"Centrolophidae","Ruffs, Barrelfishes, nei ","Ruffs, Barrelfishes, nei - Centrolophidae",400421
+"Stromateidae","Butterfishes, Pomfrets, nei ","Butterfishes, Pomfrets, nei - Stromateidae",400425
+"Bothidae","Lefteye flounders nei","Lefteye flounders nei - Bothidae",400439
+"Pleuronectidae","Righteye flounders nei","Righteye flounders nei - Pleuronectidae",400440
+"Soleidae","Soles nei","Soles nei - Soleidae",400441
+"Bathysolea profundicola","Deep water sole","Deep water sole - Bathysolea profundicola",400441
+"Buglossidium luteum","Solenette","Solenette - Buglossidium luteum",400441
+"Centroceras clavulatum","Klein's sole","Klein's sole - Centroceras clavulatum",400441
+"Centroceras clavulatum","Red panache","Red panache - Centroceras clavulatum",400441
+"Monochirus hispidus","Whiskered sole","Whiskered sole - Monochirus hispidus",400441
+"Synaptura lusitanica","Portuguese sole","Portuguese sole - Synaptura lusitanica",400441
+"Balistidae","Triggerfishes, Durgons, nei ","Triggerfishes, Durgons, nei - Balistidae",400445
+"Balistes vetula","Queen triggerfish","Queen triggerfish - Balistes vetula",400445
+"Tetraodontidae","Puffers nei","Puffers nei - Tetraodontidae",400448
+"Lagocephalus lagocephalus","Oceanic puffer","Oceanic puffer - Lagocephalus lagocephalus",400448
+"Triakidae","Houndsharks, Smoothhounds, nei ","Houndsharks, Smoothhounds, nei - Triakidae",400488
+"Scophtalmidae","Turbots nei","Turbots nei - Scophtalmidae",400515
+"Monacanthidae","Filefishes, leatherjackets nei ","Filefishes, leatherjackets nei - Monacanthidae",400517
+"Peristedion cataphractum","African armoured searobin","African armoured searobin - Peristedion cataphractum",400581
+"Ommastrephidae","Squids nei","Squids nei - Ommastrephidae",490004
+"Loliginidae","Inshore squids nei","Inshore squids nei - Loliginidae",490010
+"Alloteuthis spp","Alloteuthis spp","Alloteuthis spp",490010
+"Octopodidae","Octopuses etc, nei ","Octopuses etc, nei - Octopodidae",490012
+"Octopoteuthis sicula","Ruppell's octopus squid","Ruppell's octopus squid - Octopoteuthis sicula",490012
+"Octopus aegina","Sandbird octopus","Sandbird octopus - Octopus aegina",490012
+"Octopus defilippi","Lilliput longarm octopus","Lilliput longarm octopus - Octopus defilippi",490012
+"Octopus salutii","Spider octopus","Spider octopus - Octopus salutii",490012
+"Octopus spp","Octopuses nei","Octopuses nei - Octopus spp",490012
+"Palaemonidae","Palaemonid shrimps nei","Palaemonid shrimps nei - Palaemonidae",490030
+"Portunidae","Swimming crabs etc, nei ","Swimming crabs etc, nei - Portunidae",490031
+"Liocarcinus arcuatus","Arched swimming crab","Arched swimming crab - Liocarcinus arcuatus",490031
+"Lithodidae","King crabs,Stone crabs, nei ","King crabs,Stone crabs, nei - Lithodidae",490036
+"Palinuridae","Spiny lobsters nei","Spiny lobsters nei - Palinuridae",490039
+"Scyllaridae","Slipper lobsters nei","Slipper lobsters nei - Scyllaridae",490040
+"Scyllarus arctus","Lesser slipper lobster","Lesser slipper lobster - Scyllarus arctus",490040
+"Aristeidae","Aristeid shrimps nei","Aristeid shrimps nei - Aristeidae",490042
+"Penaeidae","Penaeid shrimps nei","Penaeid shrimps nei - Penaeidae",490043
+"Crangonidae","Crangonid shrimps","Crangonid shrimps - Crangonidae",490044
+"Pandalidae","Pandalid shrimps nei","Pandalid shrimps nei - Pandalidae",490046
+"Squillidae","Squillids nei","Squillids nei - Squillidae",490052
+"Erugosquilla massavensis","Red sea mantis shrimp","Red sea mantis shrimp - Erugosquilla massavensis",490052
+"Mytilidae","Sea mussels nei","Sea mussels nei - Mytilidae",490054
+"Pectinidae","Scallops nei","Scallops nei - Pectinidae",490055
+"Flexopecten glaber","Smooth scallop","Smooth scallop - Flexopecten glaber",490055
+"Minnivola pyxidata","Box scallop","Box scallop - Minnivola pyxidata",490055
+"Cardiidae","Cockles nei","Cockles nei - Cardiidae",490058
+"Acanthocardia echinata","European prickly cockle","European prickly cockle - Acanthocardia echinata",490058
+"Acanthocardia paucicostata","Poorly ribbed cockle","Poorly ribbed cockle - Acanthocardia paucicostata",490058
+"Cerastoderma glaucum","Olive green cockle","Olive green cockle - Cerastoderma glaucum",490058
+"Fragum fragum","White strawberry cockle","White strawberry cockle - Fragum fragum",490058
+"Glossanodon leioglossus","Smalltoothed argentine","Smalltoothed argentine - Glossanodon leioglossus",490058
+"Glycymeris maculata","Speckled bittersweet","Speckled bittersweet - Glycymeris maculata",490058
+"Glycymeris violacescens","Violet bittersweet","Violet bittersweet - Glycymeris violacescens",490058
+"Veneridae","Venus clams nei","Venus clams nei - Veneridae",490060
+"Solenidae","Razor clams, Knife clams, nei ","Razor clams, Knife clams, nei - Solenidae",490061
+"Mactridae","Mactra surf clams nei","Mactra surf clams nei - Mactridae",490063
+"Brachyura","Marine crabs nei","Marine crabs nei - Brachyura",490097
+"Grapsus grapsus","Lightfoot crab","Lightfoot crab - Grapsus grapsus",490097
+"Galatheidae","Craylets,squat lobsters ","Craylets,squat lobsters - Galatheidae",490124
+"Munida rugosa","Rugose squat lobster","Rugose squat lobster - Munida rugosa",490124
+"Arbacia lixula","Black sea urchin","Black sea urchin - Arbacia lixula",490138
+"Ostreidae","Flat and cupped oysters nei","Flat and cupped oysters nei - Ostreidae",490143
+"Centroscymnus cryptacanthus","Shortnose velvet dogfish","Shortnose velvet dogfish - Centroscymnus cryptacanthus",500107
+"Squalus spp","Dogfishes nei","Dogfishes nei - Squalus spp",500107
+"Raja fyllae","Round ray","Round ray - Raja fyllae",500108
+"Raja leopardus","Leopard skate","Leopard skate - Raja leopardus",500108
+"Raja melitensis","Maltese ray","Maltese ray - Raja melitensis",500108
+"Raja polystigma","Speckled ray","Speckled ray - Raja polystigma",500108
+"Raja radiata","Starry ray","Starry ray - Raja radiata",500108
+"Raja radula","Rough ray","Rough ray - Raja radula",500108
+"Raja spp","Raja rays nei","Raja rays nei - Raja spp",500108
+"Trichiurus spp","Hairtails nei","Hairtails nei - Trichiurus spp",500114
+"Coryphaena equiselis","Pompano dolphinfish","Pompano dolphinfish - Coryphaena equiselis",500116
+"Coryphaenidae","Dolphinfishes nei","Dolphinfishes nei - Coryphaenidae",500116
+"Gobius bucchichi","Bucchich's goby","Bucchich's goby - Gobius bucchichi",500120
+"Gobius cobitis","Giant goby","Giant goby - Gobius cobitis",500120
+"Gobius strictus","Gobius strictus","Gobius strictus",500120
+"Trachinus araneus","Spotted weever","Spotted weever - Trachinus araneus",500122
+"Trachinus spp","Weevers nei","Weevers nei - Trachinus spp",500122
+"Trachinus vipera","Lesser weever","Lesser weever - Trachinus vipera",500122
+"Ammodytes spp","Sandeels(=Sandlances) nei","Sandeels(=Sandlances) nei - Ammodytes spp",500124
+"Ammodytes tobianus","Small sandeel","Small sandeel - Ammodytes tobianus",500124
+"Gymnammodytes cicerelus","Mediterranean sand eel","Mediterranean sand eel - Gymnammodytes cicerelus",500124
+"Uranoscopus spp","Stargazers","Stargazers - Uranoscopus spp",500125
+"Gasterosteus spp","Sticklebacks","Sticklebacks - Gasterosteus spp",500130
+"Scorpaena elongata","Slender rockfish","Slender rockfish - Scorpaena elongata",500134
+"Scorpaena notata","Small red scorpionfish","Small red scorpionfish - Scorpaena notata",500134
+"Scorpaena spp","Scorpionfishes, Rockfishes, nei ","Scorpionfishes, Rockfishes, nei - Scorpaena spp",500134
+"Salmo spp","Trouts nei","Trouts nei - Salmo spp",500136
+"Scomber spp","Scomber mackerels nei","Scomber mackerels nei - Scomber spp",500142
+"Mullus spp","Surmullets(=Red mullets) nei","Surmullets(=Red mullets) nei - Mullus spp",500143
+"Chelidonichthys obscurus","Longfin gurnard","Longfin gurnard - Chelidonichthys obscurus",500144
+"Lepidotrigla dieuzeidei","Spiny gurnard","Spiny gurnard - Lepidotrigla dieuzeidei",500144
+"Pacific gurnards","Indo","Indo-Pacific gurnards - Chelidonichthys spp",500144
+"Trigla spp","Gurnards nei","Gurnards nei - Trigla spp",500144
+"Argentina spp","Argentines","Argentines - Argentina spp",500147
+"Mugil spp","Mugil spp","Mugil spp",500152
+"Macrourus spp","Grenadiers nei","Grenadiers nei - Macrourus spp",500327
+"hound","Blackspotted smooth","Blackspotted smooth-hound - Mustelus punctulatus",500348
+"hounds nei","Smooth","Smooth-hounds nei - Mustelus spp",500348
+"Rhinobatos spp","Guitarfishes nei","Guitarfishes nei - Rhinobatos spp",500351
+"Alosa alosa, A.fallax","Allis and twaid shads","Allis and twaid shads - Alosa alosa, A.fallax",500352
+"Shads","Shads","Shads",500352
+"Alosa maeotica","Black Sea shad","Black Sea shad - Alosa maeotica",500352
+"Alosa pontica","Pontic shad","Pontic shad - Alosa pontica",500352
+"Alosa spp","Shads nei","Shads nei - Alosa spp",500352
+"Caspialosa spp","Caspian shads","Caspian shads - Caspialosa spp",500352
+"Lutjanus spp","Snappers nei","Snappers nei - Lutjanus spp",500357
+"Mola spp","Sunfish","Sunfish - Mola spp",500358
+"and","Blue","Blue-and-yellow grouper - Epinephelus flavocaeruleus",500366
+"Epinephelus costae","Goldblotch grouper","Goldblotch grouper - Epinephelus costae",500366
+"Epinephelus spp","Groupers nei","Groupers nei - Epinephelus spp",500366
+"Sphyraena spp","Barracudas nei","Barracudas nei - Sphyraena spp",500372
+"Sphyraena viridensis","Yellowmouth barracuda","Yellowmouth barracuda - Sphyraena viridensis",500372
+"Gymnothorax polygonius","Polygon moray","Polygon moray - Gymnothorax polygonius",500384
+"Caranx spp","Jacks, Crevalles, nei ","Jacks, Crevalles, nei - Caranx spp",500467
+"Pacific king mackerel","Indo","Indo-Pacific king mackerel - Scomberomorus guttatus",500487
+"Scomberomorus spp","Seerfishes nei","Seerfishes nei - Scomberomorus spp",500487
+"Pacific sailfish","Indo","Indo-Pacific sailfish - Istiophorus platypterus",500488
+"Prionotus spp","Atlantic searobins","Atlantic searobins - Prionotus spp",500495
+"Centropomus spp","Snooks(=Robalos) nei","Snooks(=Robalos) nei - Centropomus spp",500504
+"Pomadasys spp","Pomadasys spp","Pomadasys spp",500516
+"Trachinotus spp","Pompanos nei","Pompanos nei - Trachinotus spp",500598
+"Solea impar","Adriatic sole","Adriatic sole - Solea impar",500618
+"Solea spp","Solea spp","Solea spp",500618
+"Isurus spp","Mako sharks","Mako sharks - Isurus spp",500638
+"Alopias spp","Tresher sharks nei","Tresher sharks nei - Alopias spp",500639
+"Galeus boardmani","Australian sawtail catshark","Australian sawtail catshark - Galeus boardmani",500640
+"Galeus schultzi","Dwarf sawtail catshark","Dwarf sawtail catshark - Galeus schultzi",500640
+"tail catsharks nei","Crest","Crest-tail catsharks nei - Galeus spp",500640
+"Etmopterus princeps","Great lanternshark","Great lanternshark - Etmopterus princeps",500642
+"Etmopterus spp","Lantern sharks nei","Lantern sharks nei - Etmopterus spp",500642
+"Dasyatis spp","Stingrays nei","Stingrays nei - Dasyatis spp",500646
+"Dasyatis violacea","Pelagic stingray","Pelagic stingray - Dasyatis violacea",500646
+"Merluccius capensis,M.paradox.","Cape hakes","Cape hakes - Merluccius capensis,M.paradox.",500654
+"Merluccius spp","Hakes nei","Hakes nei - Merluccius spp",500654
+"Trachurus spp","Jack and horse mackerels nei","Jack and horse mackerels nei - Trachurus spp",500661
+"Spicara spp","Picarels nei","Picarels nei - Spicara spp",500679
+"bearded rockling","Three","Three-bearded rockling - Gaidropsarus vulgaris",500686
+"Gaidropsarus biscayensis","Mediterranean bigeye rockling","Mediterranean bigeye rockling - Gaidropsarus biscayensis",500686
+"Gaidropsarus mediterraneus","Shore rockling","Shore rockling - Gaidropsarus mediterraneus",500686
+"Gaidropsarus spp","Rocklings nei","Rocklings nei - Gaidropsarus spp",500686
+"Sphyrna corona","Scalloped bonnethead","Scalloped bonnethead - Sphyrna corona",500693
+"Sphyrna spp","Hammerhead sharks nei","Hammerhead sharks nei - Sphyrna spp",500693
+"Diplodus spp","Sargo breams nei","Sargo breams nei - Diplodus spp",500705
+"Epigonus spp","Cardinal fishes nei","Cardinal fishes nei - Epigonus spp",500716
+"Myoxocephalus scorpius","Shorthorn sculpin","Shorthorn sculpin - Myoxocephalus scorpius",500717
+"Myoxocephalus spp","Sculpins","Sculpins - Myoxocephalus spp",500717
+"Dentex spp","Dentex nei","Dentex nei - Dentex spp",500809
+"Scyliorhinus cervigoni","West African catshark","West African catshark - Scyliorhinus cervigoni",500814
+"Scyliorhinus spp","Catsharks,Nursehounds, nei ","Catsharks,Nursehounds, nei - Scyliorhinus spp",500814
+"Aluterus monoceros","Unicorn leatherjacket filefish","Unicorn leatherjacket filefish - Aluterus monoceros",500854
+"Serranus atricauda","Blacktail comber","Blacktail comber - Serranus atricauda",500901
+"Serranus hepatus","Brown comber","Brown comber - Serranus hepatus",500901
+"Serranus spp","Combers nei","Combers nei - Serranus spp",500901
+"Priacanthus spp","Bigeyes nei","Bigeyes nei - Priacanthus spp",500912
+"Seriola spp","Amberjacks nei","Amberjacks nei - Seriola spp",500928
+"Seriola carpenteri","Guinean amberjack","Guinean amberjack - Seriola carpenteri",500928
+"Cynoglossus spp","Tonguesole nei","Tonguesole nei - Cynoglossus spp",501026
+"Molva spp","Lings nei","Lings nei - Molva spp",501096
+"Beryx spp","Alfonsinos nei","Alfonsinos nei - Beryx spp",501129
+"Sebastes spp","Atlantic redfishes nei","Atlantic redfishes nei - Sebastes spp",501135
+"Pagellus spp","Pandoras nei","Pandoras nei - Pagellus spp",501145
+"Auxis thazard, A.rochei","Frigate and bullet tuna","Frigate and bullet tuna - Auxis thazard, A.rochei",501163
+"Tylosurus spp","Needlefishes nei","Needlefishes nei - Tylosurus spp",501345
+"Salvelinus spp","Chars nei","Chars nei - Salvelinus spp",501410
+"Microchirus azevia","Microchirus azevia","Microchirus azevia",501418
+"Microchirus spp","Thickback soles","Thickback soles - Microchirus spp",501418
+"Lycodes spp","Eelpouts","Eelpouts - Lycodes spp",501486
+"Lithognathus spp","Steenbrasses nei","Steenbrasses nei - Lithognathus spp",501550
+"Cantherhines (=Navodon) spp","Filefishes nei","Filefishes nei - Cantherhines (=Navodon) spp",501677
+"Arius maculatus","Spotted catfish","Spotted catfish - Arius maculatus",501682
+"like fishes nei","Tuna","Tuna-like fishes nei - Scombroidei",501905
+"Thunnus spp","True tunas nei","True tunas nei - Thunnus spp",501905
+"Sardinella spp","Sardinellas nei","Sardinellas nei - Sardinella spp",501940
+"Pseudocaranx chilensis","Juan Fernandez trevally","Juan Fernandez trevally - Pseudocaranx chilensis",502100
+"Pseudocaranx wrighti","Skipjack trevally","Skipjack trevally - Pseudocaranx wrighti",502100
+"Decapterus spp","Scads nei","Scads nei - Decapterus spp",502102
+"Dicentrarchus spp","Seabasses nei","Seabasses nei - Dicentrarchus spp",502682
+"Mycteroperca fusca","Island grouper","Island grouper - Mycteroperca fusca",503028
+"Mycteroperca spp","Brazilian groupers nei","Brazilian groupers nei - Mycteroperca spp",503028
+"Lepidorhombus spp","Megrims nei","Megrims nei - Lepidorhombus spp",503124
+"Pseudotolithus spp","West African croakers nei","West African croakers nei - Pseudotolithus spp",503152
+"Vimba vimba","Vimba bream","Vimba bream - Vimba vimba",503663
+"Liza spp","Liza spp","Liza spp",504212
+"Paralepididae","Barracudinas nei","Barracudinas nei - Paralepididae",505460
+"Dolichosudis fuliginosa","Dolichosudis fuliginosa","Dolichosudis fuliginosa",505460
+"Anarhichas spp","Wolffishes (=Catfishes) nei","Wolffishes (=Catfishes) nei - Anarhichas spp",505897
+"Coregonus clupeaformis","Lake(=Common) whitefish","Lake(=Common) whitefish - Coregonus clupeaformis",506253
+"Coregonus spp","Whitefishes nei","Whitefishes nei - Coregonus spp",506253
+"Bathyraja spp","Bathyraja rays nei","Bathyraja rays nei - Bathyraja spp",508611
+"Torpedo marmorata","Marbled electric ray","Marbled electric ray - Torpedo marmorata",509274
+"Torpedo nobilliana","Torpille noire","Torpille noire - Torpedo nobilliana",509274
+"Torpedo spp","Torpedo rays","Torpedo rays - Torpedo spp",509274
+"Anguilla spp","River eels nei","River eels nei - Anguilla spp",509279
+"Phycis spp","Forkbeards nei","Forkbeards nei - Phycis spp",509303
+"Pampus spp","Silver pomfrets nei","Silver pomfrets nei - Pampus spp",520007
+"Loligo reynaudi","Cape Hope squid","Cape Hope squid - Loligo reynaudi",590010
+"Loligo spp","Common squids nei","Common squids nei - Loligo spp",590010
+"Sepia bertheloti","African cuttlefish","African cuttlefish - Sepia bertheloti",590011
+"Sepia elegans","Elegant cuttlefish","Elegant cuttlefish - Sepia elegans",590011
+"Sepia orbignyana","Pink cuttlefish","Pink cuttlefish - Sepia orbignyana",590011
+"Sepia spp","Cuttlefishes nei","Cuttlefishes nei - Sepia spp",590011
+"spotted octopus","White","White-spotted octopus - Octopus macropus",590013
+"Crassostrea spp","Cupped oysters nei","Cupped oysters nei - Crassostrea spp",590014
+"Eledone moschata","Musky octopus","Musky octopus - Eledone moschata",590024
+"Eledone spp","Horned and musky octopuses","Horned and musky octopuses - Eledone spp",590024
+"Littorina spp","Periwinkles nei","Periwinkles nei - Littorina spp",590049
+"Murex spp","Murex","Murex - Murex spp",590050
+"Phyllonotus trunculus","Banded murex","Banded murex - Phyllonotus trunculus",590050
+"Strombus labiatus","Plicate conch","Plicate conch - Strombus labiatus",590051
+"Astacus astacus","Noble crayfish","Noble crayfish - Astacus astacus",590060
+"Pacifastacus nigrescens","Sooty crayfish","Sooty crayfish - Pacifastacus nigrescens",590060
+"Chaceon macphersoni","Pink geryon","Pink geryon - Chaceon macphersoni",590067
+"Geryon longipes","Mediterranean geryon","Mediterranean geryon - Geryon longipes",590067
+"Geryon maritae","West African geryon","West African geryon - Geryon maritae",590067
+"Geryon quinquedens","Red crab","Red crab - Geryon quinquedens",590067
+"Geryon spp","Geryons nei","Geryons nei - Geryon spp",590067
+"sea crabs, geryons nei","Deep","Deep-sea crabs, geryons nei",590067
+"Lithodes spp","King crabs nei","King crabs nei - Lithodes spp",590070
+"Paralithodes spp","King crabs","King crabs - Paralithodes spp",590073
+"Liocarcinus vernalis","Smooth swimcrab","Smooth swimcrab - Liocarcinus vernalis",590075
+"Macropipus tuberculatus","Knobby swimcrab","Knobby swimcrab - Macropipus tuberculatus",590075
+"Portunus spp","Portunus swimcrabs nei","Portunus swimcrabs nei - Portunus spp",590075
+"Palinurus spp","Palinurid spiny lobster nei","Palinurid spiny lobster nei - Palinurus spp",590082
+"Crangon spp","Crangon shrimps nei","Crangon shrimps nei - Crangon spp",590088
+"Heterocarpus ensifer","Armed nylon shrimp","Armed nylon shrimp - Heterocarpus ensifer",590090
+"Plesionika heterocarpus","Arrow shrimp","Arrow shrimp - Plesionika heterocarpus",590090
+"Heterocarpus laevigatus","Smooth nylon shrimp","Smooth nylon shrimp - Heterocarpus laevigatus",590090
+"Metapenaeus shrimps nei","Metapenaeus shrimps nei","Metapenaeus shrimps nei",590091
+"Palaemon shrimps nei","Palaemon shrimps nei","Palaemon shrimps nei",590092
+"Pandalus spp","Pandalus shrimps nei","Pandalus shrimps nei - Pandalus spp",590093
+"Penaeus brasiliensis","Redspotted shrimp","Redspotted shrimp - Penaeus brasiliensis",590096
+"Penaeus japonicus","Kuruma prawn","Kuruma prawn - Penaeus japonicus",590096
+"Penaeus kerathurus","Caramote prawn","Caramote prawn - Penaeus kerathurus",590096
+"Penaeus setiferus","Northern white shrimp","Northern white shrimp - Penaeus setiferus",590096
+"Penaeus spp","Penaeus shrimps nei","Penaeus shrimps nei - Penaeus spp",590096
+"Penaeus subtilis","Southern brown shrimp","Southern brown shrimp - Penaeus subtilis",590096
+"Hinia incrassata","Thickened nassa","Thickened nassa - Hinia incrassata",590110
+"Rapana spp","Sea snails","Sea snails - Rapana spp",590111
+"Ostrea spp","Flat oysters nei","Flat oysters nei - Ostrea spp",590112
+"Modiolus spp","Horse mussels nei","Horse mussels nei - Modiolus spp",590116
+"Mytilus spp","Mytilus spp","Mytilus spp",590117
+"Chlamys livida","Scallop","Scallop - Chlamys livida",590120
+"Chlamys opercularis","Queen scallop","Queen scallop - Chlamys opercularis",590120
+"Chlamys varia","Variegated scallop","Variegated scallop - Chlamys varia",590120
+"Scallops, pectens","Scallops, pectens","Scallops, pectens",590122
+"Arca spp","Ark clams nei","Ark clams nei - Arca spp",590125
+"Donax spp","Donax clams","Donax clams - Donax spp",590128
+"Donax trunculus","Truncate donax","Truncate donax - Donax trunculus",590128
+"Dosinia exoleta","Mature dosinia","Mature dosinia - Dosinia exoleta",590129
+"Meretrix spp","Hard clams nei","Hard clams nei - Meretrix spp",590134
+"Ruditapes spp","Carpet shells nei","Carpet shells nei - Ruditapes spp",590141
+"Venerupis aurea","Golden carpet shell","Golden carpet shell - Venerupis aurea",590141
+"Solen spp","Razor clams nei","Razor clams nei - Solen spp",590145
+"Spisula spp","Surf clams nei","Surf clams nei - Spisula spp",590146
+"Spisula subtruncata","Subtruncate surf clam","Subtruncate surf clam - Spisula subtruncata",590146
+"Stichopus regalis","Royal cucumber","Royal cucumber - Stichopus regalis",590157
+"urchins nei","Sea","Sea-urchins nei - Strongylocentrotus spp",590158
+"Rhopilema spp","Jellyfishes","Jellyfishes - Rhopilema spp",590159
+"limpet","American slipper","American slipper-limpet - Crepidula fornicata",590242
+"Patella spp","Limpets nei","Limpets nei - Patella spp",590242
+"Patella ulyssiponensis","Rough limpet","Rough limpet - Patella ulyssiponensis",590242
+"Patella vulgata","Limpet","Limpet - Patella vulgata",590242
+"Tellina spp","Tellins nei","Tellins nei - Tellina spp",590262
+"Coryphaena hippurus","Common dolphinfish","Common dolphinfish - Coryphaena hippurus",600006
+"Argentina sphyraena","Argentine","Argentine - Argentina sphyraena",600020
+"Clupea harengus","Atlantic herring","Atlantic herring - Clupea harengus",600024
+"Gadiculus argenteus","Silvery pout","Silvery pout - Gadiculus argenteus",600025
+"Glyptocephalus cynoglossus","Witch flounder","Witch flounder - Glyptocephalus cynoglossus",600026
+"spot megrim","Four","Four-spot megrim - Lepidorhombus boscii",600027
+"Lepidorhombus whiffiagonis","Megrim","Megrim - Lepidorhombus whiffiagonis",600028
+"Merlangius merlangus","Whiting","Whiting - Merlangius merlangus",600029
+"Merluccius merluccius","European hake","European hake - Merluccius merluccius",600030
+"Micromesistius poutassou","Blue whiting (=Poutassou)","Blue whiting (=Poutassou) - Micromesistius poutassou",600031
+"Microchirus variegatus","Thickback sole","Thickback sole - Microchirus variegatus",600032
+"Molva molva","Ling","Ling - Molva molva",600033
+"Pollachius pollachius","Pollack","Pollack - Pollachius pollachius",600034
+"Anguilla anguilla","European eel","European eel - Anguilla anguilla",600035
+"Aphia minuta","Transparent goby","Transparent goby - Aphia minuta",600039
+"Arnoglossus laterna","Mediterranean scaldfish","Mediterranean scaldfish - Arnoglossus laterna",600041
+"Chelidonichthys cuculus","Red gurnard","Red gurnard - Chelidonichthys cuculus",600044
+"Atherina presbyter","Sand smelt","Sand smelt - Atherina presbyter",600045
+"Belone belone","Garfish","Garfish - Belone belone",600047
+"Brosme brosme","Tusk (=Cusk)","Tusk (=Cusk) - Brosme brosme",600051
+"Capros aper","Boarfish","Boarfish - Capros aper",600054
+"Cepola macrophthalma","Red bandfish","Red bandfish - Cepola macrophthalma",600056
+"Coris julis","Mediterranean rainbow wrasse","Mediterranean rainbow wrasse - Coris julis",600058
+"Symphodus melops","Corkwing wrasse","Corkwing wrasse - Symphodus melops",600059
+"wrasse","Goldsinny","Goldsinny-wrasse - Ctenolabrus rupestris",600061
+"Cyclopterus lumpus","Lumpfish(=Lumpsucker)","Lumpfish(=Lumpsucker) - Cyclopterus lumpus",600062
+"Dicentrarchus labrax","European seabass","European seabass - Dicentrarchus labrax",600063
+"Engraulis encrasicolus","European anchovy","European anchovy - Engraulis encrasicolus",600066
+"Eutrigla gurnardus","Grey gurnard","Grey gurnard - Eutrigla gurnardus",600068
+"Gadus morhua","Atlantic cod","Atlantic cod - Gadus morhua",600069
+"Caranx hippos","Crevalle jack","Crevalle jack - Caranx hippos",600071
+"Gobius niger","Black goby","Black goby - Gobius niger",600072
+"Helicolenus dactylopteru","Blackbelly rosefish","Blackbelly rosefish - Helicolenus dactylopteru",600076
+"Istiophorus albicans","Atlantic sailfish","Atlantic sailfish - Istiophorus albicans",600078
+"Aprion virescens","Green jobfish","Green jobfish - Aprion virescens",600084
+"water red snapper","Deep","Deep-water red snapper - Etelis carbunculus",600087
+"Lamna nasus","Porbeagle","Porbeagle - Lamna nasus",600088
+"Acanthocybium solandri","Wahoo","Wahoo - Acanthocybium solandri",600089
+"Cetorhinus maximus","Basking shark","Basking shark - Cetorhinus maximus",600090
+"Auxis rochei","Bullet tuna","Bullet tuna - Auxis rochei",600093
+"Auxis thazard","Frigate tuna","Frigate tuna - Auxis thazard",600094
+"Euthynnus alletteratus","Little tunny (=Atl.black skipjack)","Little tunny (=Atl.black skipjack) - Euthynnus alletteratus",600097
+"Alosa alosa","Allis shad","Allis shad - Alosa alosa",600101
+"Gymnosarda unicolor","Dogtooth tuna","Dogtooth tuna - Gymnosarda unicolor",600106
+"Katsuwonus pelamis","Skipjack tuna","Skipjack tuna - Katsuwonus pelamis",600107
+"Orcynopsis unicolor","Plain bonito","Plain bonito - Orcynopsis unicolor",600108
+"Sarda sarda","Atlantic bonito","Atlantic bonito - Sarda sarda",600115
+"Scomber australasicus","Blue mackerel","Blue mackerel - Scomber australasicus",600116
+"Scomber japonicus","Chub mackerel","Chub mackerel - Scomber japonicus",600117
+"Scomber scombrus","Atlantic mackerel","Atlantic mackerel - Scomber scombrus",600118
+"barred Spanish mackerel","Narrow","Narrow-barred Spanish mackerel - Scomberomorus commerson",600121
+"Somniosus microcephalus","Greenland shark","Greenland shark - Somniosus microcephalus",600138
+"Squalus acanthias","Picked dogfish","Picked dogfish - Squalus acanthias",600139
+"Thunnus alalunga","Albacore","Albacore - Thunnus alalunga",600142
+"Thunnus albacares","Yellowfin tuna","Yellowfin tuna - Thunnus albacares",600143
+"Thunnus atlanticus","Blackfin tuna","Blackfin tuna - Thunnus atlanticus",600144
+"Thunnus maccoyii","Southern bluefin tuna","Southern bluefin tuna - Thunnus maccoyii",600145
+"Thunnus obesus","Bigeye tuna","Bigeye tuna - Thunnus obesus",600146
+"Thunnus thynnus","Atlantic bluefin tuna","Atlantic bluefin tuna - Thunnus thynnus",600147
+"Lutjanus kasmira","Common bluestripe snapper","Common bluestripe snapper - Lutjanus kasmira",600156
+"Pristipomoides filamentosus","Crimson jobfish","Crimson jobfish - Pristipomoides filamentosus",600201
+"Boops boops","Bogue","Bogue - Boops boops",600203
+"Sarpa salpa","Salema","Salema - Sarpa salpa",600204
+"eyed flounder","Wide","Wide-eyed flounder - Bothus podas",600207
+"Makaira nigricans","Blue marlin","Blue marlin - Makaira nigricans",600216
+"Makaira indica","Black marlin","Black marlin - Makaira indica",600217
+"Tetrapturus albidus","Atlantic white marlin","Atlantic white marlin - Tetrapturus albidus",600219
+"Tetrapturus pfluegeri","Longbill spearfish","Longbill spearfish - Tetrapturus pfluegeri",600220
+"Tetrapturus audax","Striped marlin","Striped marlin - Tetrapturus audax",600223
+"Xiphias gladius","Swordfish","Swordfish - Xiphias gladius",600226
+"Albula vulpes","Bonefish","Bonefish - Albula vulpes",600228
+"Alepocephalus bairdii","Baird's slickhead","Baird's slickhead - Alepocephalus bairdii",600230
+"Coregonus albula","Vendace","Vendace - Coregonus albula",600231
+"Coregonus lavaretus","European whitefish","European whitefish - Coregonus lavaretus",600232
+"Salmo salar","Atlantic salmon","Atlantic salmon - Salmo salar",600236
+"Salmo trutta","Sea trout","Sea trout - Salmo trutta",600238
+"Oncorhynchus mykiss","Rainbow trout","Rainbow trout - Oncorhynchus mykiss",600239
+"Salvelinus alpinus","Arctic char","Arctic char - Salvelinus alpinus",600247
+"Centrolophus niger","Rudderfish","Rudderfish - Centrolophus niger",600249
+"Schedophilus ovalis","Imperial blackfish","Imperial blackfish - Schedophilus ovalis",600250
+"Mallotus villosus","Capelin","Capelin - Mallotus villosus",600252
+"Glossanodon semifasciatus","Deepsea smelt","Deepsea smelt - Glossanodon semifasciatus",600257
+"Esox lucius","Northern pike","Northern pike - Esox lucius",600258
+"Tinca tinca","Tench","Tench - Tinca tinca",600269
+"Carassius carassius","Crucian carp","Crucian carp - Carassius carassius",600270
+"Rutilus rutilus","Roach","Roach - Rutilus rutilus",600272
+"Hypophthalmichthys molitrix","Silver carp","Silver carp - Hypophthalmichthys molitrix",600274
+"Pelecus cultratus","Sichel","Sichel - Pelecus cultratus",600283
+"Silurus glanis","Wels(=Som) Catfish","Wels(=Som) Catfish - Silurus glanis",600289
+"Conger conger","European conger","European conger - Conger conger",600301
+"Salilota australis","Tadpole codling","Tadpole codling - Salilota australis",600306
+"Gadus ogac","Greenland cod","Greenland cod - Gadus ogac",600309
+"Lota lota","Burbot","Burbot - Lota lota",600310
+"Urophycis chuss","Red hake","Red hake - Urophycis chuss",600312
+"Urophycis tenuis","White hake","White hake - Urophycis tenuis",600313
+"Microgadus tomcod","Atlantic tomcod","Atlantic tomcod - Microgadus tomcod",600316
+"Theragra chalcogramma","Alaska pollock (=Walleye poll.)","Alaska pollock (=Walleye poll.) - Theragra chalcogramma",600318
+"Boreogadus saida","Polar cod","Polar cod - Boreogadus saida",600319
+"Merluccius senegalensis","Senegalese hake","Senegalese hake - Merluccius senegalensis",600321
+"Merluccius australis","Southern hake","Southern hake - Merluccius australis",600322
+"Merluccius bilinearis","Silver hake","Silver hake - Merluccius bilinearis",600323
+"Merluccius hubbsi","Argentine hake","Argentine hake - Merluccius hubbsi",600325
+"Macruronus magellanicus","Patagonian grenadier","Patagonian grenadier - Macruronus magellanicus",600329
+"Macrourus berglax","Roughhead grenadier","Roughhead grenadier - Macrourus berglax",600331
+"Coryphaenoides rupestris","Roundnose grenadier","Roundnose grenadier - Coryphaenoides rupestris",600332
+"Macroramphosus scolopax","Longspine snipefish","Longspine snipefish - Macroramphosus scolopax",600333
+"Hoplostethus atlanticus","Orange roughy","Orange roughy - Hoplostethus atlanticus",600334
+"Zenopsis conchifer","Silvery John dory","Silvery John dory - Zenopsis conchifer",600336
+"Menidia menidia","Atlantic silverside","Atlantic silverside - Menidia menidia",600339
+"Polyprion americanus","Wreckfish","Wreckfish - Polyprion americanus",600349
+"Polyprion oxygeneios","Hapuku wreckfish","Hapuku wreckfish - Polyprion oxygeneios",600350
+"Morone saxatilis","Striped bass","Striped bass - Morone saxatilis",600353
+"Morone americana","White perch","White perch - Morone americana",600355
+"Perca fluviatilis","European perch","European perch - Perca fluviatilis",600358
+"perch","Pike","Pike-perch - Stizostedion lucioperca",600360
+"Centropristis striata","Black seabass","Black seabass - Centropristis striata",600361
+"Lopholatilus chamaeleonticeps","Great Northern tilefish","Great Northern tilefish - Lopholatilus chamaeleonticeps",600362
+"Pomatomus saltatrix","Bluefish","Bluefish - Pomatomus saltatrix",600364
+"Seriola lalandi","Yellowtail amberjack","Yellowtail amberjack - Seriola lalandi",600382
+"Chloroscombrus chrysurus","Atlantic bumper","Atlantic bumper - Chloroscombrus chrysurus",600385
+"Selar crumenophthalmus","Bigeye scad","Bigeye scad - Selar crumenophthalmus",600387
+"Brama brama","Atlantic pomfret","Atlantic pomfret - Brama brama",600391
+"Dicentrarchus punctatus","Spotted seabass","Spotted seabass - Dicentrarchus punctatus",600394
+"Plectorhinchus mediterraneus","Rubberlip grunt","Rubberlip grunt - Plectorhinchus mediterraneus",600398
+"Pomadasys argenteus","Silver grunt","Silver grunt - Pomadasys argenteus",600399
+"Brachydeuterus auritus","Bigeye grunt","Bigeye grunt - Brachydeuterus auritus",600400
+"Cynoscion regalis","Squeteague (=Gray weakfish)","Squeteague (=Gray weakfish) - Cynoscion regalis",600406
+"Argyrosomus regius","Meagre","Meagre - Argyrosomus regius",600418
+"Pteroscion peli","Boe drum","Boe drum - Pteroscion peli",600423
+"Epinephelus aeneus","White grouper","White grouper - Epinephelus aeneus",600426
+"Pennahia argentatus","Silver croaker","Silver croaker - Pennahia argentatus",600434
+"Pagellus bellottii","Red pandora","Red pandora - Pagellus bellottii",600436
+"eye dentex","Large","Large-eye dentex - Dentex macrophthalmus",600438
+"Dentex dentex","Common dentex","Common dentex - Dentex dentex",600439
+"Dentex angolensis","Angolan dentex","Angolan dentex - Dentex angolensis",600440
+"Stenotomus chrysops","Scup","Scup - Stenotomus chrysops",600452
+"Pseudupeneus prayensis","West African goatfish","West African goatfish - Pseudupeneus prayensis",600453
+"Dissostichus eleginoides","Patagonian toothfish","Patagonian toothfish - Dissostichus eleginoides",600467
+"Zoarces viviparus","Eelpout","Eelpout - Zoarces viviparus",600479
+"Trisopterus minutus","Poor cod","Poor cod - Trisopterus minutus",600481
+"Genypterus capensis","Kingklip","Kingklip - Genypterus capensis",600485
+"Brotula barbata","Bearded brotula","Bearded brotula - Brotula barbata",600486
+"Thyrsites atun","Snoek","Snoek - Thyrsites atun",600489
+"Sebastes marinus","Golden redfish","Golden redfish - Sebastes marinus",600501
+"Sebastes mentella","Beaked redfish","Beaked redfish - Sebastes mentella",600505
+"Reinhardtius hippoglossoides","Greenland halibut","Greenland halibut - Reinhardtius hippoglossoides",600516
+"Limanda ferruginea","Yellowtail flounder","Yellowtail flounder - Limanda ferruginea",600521
+"Pseudopleuronectes americanus","Winter flounder","Winter flounder - Pseudopleuronectes americanus",600524
+"Solea solea","Common sole","Common sole - Solea solea",600525
+"Dicologoglossa cuneata","Wedge sole","Wedge sole - Dicologoglossa cuneata",600526
+"Scophthalmus rhombus","Brill","Brill - Scophthalmus rhombus",600529
+"Stephanolepis cirrhifer","Threadsail filefish","Threadsail filefish - Stephanolepis cirrhifer",600531
+"Lophius americanus","American angler","American angler - Lophius americanus",600532
+"Labrus bergylta","Ballan wrasse","Ballan wrasse - Labrus bergylta",600572
+"Heptranchias perlo","Sharpnose sevengill shark","Sharpnose sevengill shark - Heptranchias perlo",600636
+"Hexanchus griseus","Bluntnose sixgill shark","Bluntnose sixgill shark - Hexanchus griseus",600637
+"Echinorhinus brucus","Bramble shark","Bramble shark - Echinorhinus brucus",600641
+"Lepidopus caudatus","Silver scabbardfish","Silver scabbardfish - Lepidopus caudatus",600645
+"Aphanopus carbo","Black scabbardfish","Black scabbardfish - Aphanopus carbo",600646
+"Centrophorus granulosus","Gulper shark","Gulper shark - Centrophorus granulosus",600648
+"Centrophorus lusitanicus","Lowfin gulper shark","Lowfin gulper shark - Centrophorus lusitanicus",600650
+"Centrophorus squamosus","Leafscale gulper shark","Leafscale gulper shark - Centrophorus squamosus",600653
+"Centroscyllium fabricii","Black dogfish","Black dogfish - Centroscyllium fabricii",600656
+"Centroscymnus coelolepis","Portuguese dogfish","Portuguese dogfish - Centroscymnus coelolepis",600662
+"Centroscymnus crepidater","Longnose velvet dogfish","Longnose velvet dogfish - Centroscymnus crepidater",600663
+"Dalatias licha","Kitefin shark","Kitefin shark - Dalatias licha",600669
+"Deania calcea","Birdbeak dogfish","Birdbeak dogfish - Deania calcea",600670
+"Deania histricosa","Rough longnose dogfish","Rough longnose dogfish - Deania histricosa",600671
+"Etmopterus spinax","Velvet belly","Velvet belly - Etmopterus spinax",600687
+"Lichia amia","Leerfish","Leerfish - Lichia amia",600692
+"Limanda limanda","Common dab","Common dab - Limanda limanda",600695
+"Scymnodon ringens","Knifetooth dogfish","Knifetooth dogfish - Scymnodon ringens",600700
+"Somniosus rostratus","Little sleeper shark","Little sleeper shark - Somniosus rostratus",600704
+"Lithognathus mormyrus","Sand steenbras","Sand steenbras - Lithognathus mormyrus",600706
+"Squalus blainvillei","Longnose spurdog","Longnose spurdog - Squalus blainvillei",600708
+"Lophius piscatorius","Angler(=Monk)","Angler(=Monk) - Lophius piscatorius",600716
+"Oxynotus centrina","Angular rough shark","Angular rough shark - Oxynotus centrina",600718
+"Oxynotus paradoxus","Sailfin roughshark","Sailfin roughshark - Oxynotus paradoxus",600719
+"Squatina squatina","Angelshark","Angelshark - Squatina squatina",600736
+"Odontaspis taurus","Sand tiger shark","Sand tiger shark - Odontaspis taurus",600747
+"Isurus oxyrinchus","Shortfin mako","Shortfin mako - Isurus oxyrinchus",600752
+"Maurolicus muelleri","Silvery lightfish","Silvery lightfish - Maurolicus muelleri",600754
+"water catsharks","Deep","Deep-water catsharks - Apristurus spp",600779
+"Mugil cephalus","Flathead grey mullet","Flathead grey mullet - Mugil cephalus",600785
+"Mullus barbatus","Red mullet","Red mullet - Mullus barbatus",600790
+"Galeus melastomus","Blackmouth catshark","Blackmouth catshark - Galeus melastomus",600807
+"Galeus murinus","Mouse catshark","Mouse catshark - Galeus murinus",600808
+"spotted catshark","Small","Small-spotted catshark - Scyliorhinus canicula",600845
+"Oblada melanura","Saddled seabream","Saddled seabream - Oblada melanura",600850
+"Scyliorhinus stellaris","Nursehound","Nursehound - Scyliorhinus stellaris",600854
+"Carcharhinus albimarginatus","Silvertip shark","Silvertip shark - Carcharhinus albimarginatus",600858
+"Carcharhinu falciform","Silky shark","Silky shark - Carcharhinu falciform",600868
+"Carcharhinus longimanus","Oceanic whitetip shark","Oceanic whitetip shark - Carcharhinus longimanus",600875
+"Carcharhinus obscurus","Dusky shark","Dusky shark - Carcharhinus obscurus",600878
+"Carcharhinus plumbeus","Sandbar shark","Sandbar shark - Carcharhinus plumbeus",600880
+"Galeocerdo cuvier","Tiger shark","Tiger shark - Galeocerdo cuvier",600886
+"Pagellus acarne","Axillary seabream","Axillary seabream - Pagellus acarne",600889
+"Pagellus bogaraveo","Blackspot(=red) seabream","Blackspot(=red) seabream - Pagellus bogaraveo",600890
+"Pagellus erythrinus","Common pandora","Common pandora - Pagellus erythrinus",600893
+"Prionace glauca","Blue shark","Blue shark - Prionace glauca",600898
+"Triaenodon obesus","Whitetip reef shark","Whitetip reef shark - Triaenodon obesus",600907
+"Sphyrna lewini","Scalloped hammerhead","Scalloped hammerhead - Sphyrna lewini",600912
+"Sphyrna zygaena","Smooth hammerhead","Smooth hammerhead - Sphyrna zygaena",600917
+"Decapterus macarellus","Mackerel scad","Mackerel scad - Decapterus macarellus",600993
+"Naucrates ductor","Pilotfish","Pilotfish - Naucrates ductor",600998
+"Pseudocaranx dentex","White trevally","White trevally - Pseudocaranx dentex",601002
+"Seriola dumerili","Greater amberjack","Greater amberjack - Seriola dumerili",601005
+"Seriola rivoliana","Longfin yellowtail","Longfin yellowtail - Seriola rivoliana",601007
+"Dactylopterus volitans","Flying gurnard","Flying gurnard - Dactylopterus volitans",601021
+"Trisopterus esmarkii","Norway pout","Norway pout - Trisopterus esmarkii",601023
+"Lepidocybium flavobrunneum","Escolar","Escolar - Lepidocybium flavobrunneum",601042
+"Sardinella aurita","Round sardinella","Round sardinella - Sardinella aurita",601043
+"Ruvettus pretiosus","Oilfish","Oilfish - Ruvettus pretiosus",601044
+"Sardinella maderensis","Madeiran sardinella","Madeiran sardinella - Sardinella maderensis",601047
+"Lampris guttatus","Opah","Opah - Lampris guttatus",601072
+"Lobotes surinamensis","Tripletail","Tripletail - Lobotes surinamensis",601077
+"Megalops atlanticus","Tarpon","Tarpon - Megalops atlanticus",601079
+"Scomberesox saurus","Atlantic saury","Atlantic saury - Scomberesox saurus",601084
+"Mugil incilis","Parassi mullet","Parassi mullet - Mugil incilis",601089
+"Heteropriacanthus cruentatus","Glasseye","Glasseye - Heteropriacanthus cruentatus",601150
+"Sparus aurata","Gilthead seabream","Gilthead seabream - Sparus aurata",601164
+"Cynoscion acoupa","Acoupa weakfish","Acoupa weakfish - Cynoscion acoupa",601169
+"Stromateus fiatola","Blue butterfish","Blue butterfish - Stromateus fiatola",601198
+"Mycteroperca rubra","Mottled grouper","Mottled grouper - Mycteroperca rubra",601214
+"Sphyraena barracuda","Great barracuda","Great barracuda - Sphyraena barracuda",601235
+"Trachurus mediterraneus","Mediterranean horse mackerel","Mediterranean horse mackerel - Trachurus mediterraneus",601278
+"Trachurus picturatus","Blue jack mackerel","Blue jack mackerel - Trachurus picturatus",601279
+"Trichiurus lepturus","Largehead hairtail","Largehead hairtail - Trichiurus lepturus",601288
+"Umbrina cirrosa","Shi drum","Shi drum - Umbrina cirrosa",601306
+"Beryx decadactylus","Alfonsino","Alfonsino - Beryx decadactylus",601319
+"Beryx splendens","Splendid alfonsino","Splendid alfonsino - Beryx splendens",601320
+"Mullus surmuletus","Surmullet","Surmullet - Mullus surmuletus",601327
+"Osmerus eperlanus","European smelt","European smelt - Osmerus eperlanus",601334
+"Solea lascaris","Sand sole","Sand sole - Solea lascaris",601336
+"Phycis blennoides","Greater forkbeard","Greater forkbeard - Phycis blennoides",601340
+"Platichthys flesus","European flounder","European flounder - Platichthys flesus",601341
+"Pleuronectes platessa","European plaice","European plaice - Pleuronectes platessa",601342
+"Pollachius virens","Saithe(=Pollock)","Saithe(=Pollock) - Pollachius virens",601343
+"Psetta maxima","Turbot","Turbot - Psetta maxima",601348
+"Sardina pilchardus","European pilchard(=Sardine)","European pilchard(=Sardine) - Sardina pilchardus",601350
+"Serranus cabrilla","Comber","Comber - Serranus cabrilla",601353
+"Spondyliosoma cantharus","Black seabream","Black seabream - Spondyliosoma cantharus",601356
+"Sprattus sprattus","European sprat","European sprat - Sprattus sprattus",601357
+"Trachinus draco","Greater weever","Greater weever - Trachinus draco",601363
+"Trachurus trachurus","Atlantic horse mackerel","Atlantic horse mackerel - Trachurus trachurus",601365
+"Chelidonichthys lucerna","Tub gurnard","Tub gurnard - Chelidonichthys lucerna",601366
+"Trisopterus luscus","Pouting (=Bib)","Pouting (=Bib) - Trisopterus luscus",601367
+"Zeus faber","John dory","John dory - Zeus faber",601370
+"Hippoglossus hippoglossus","Atlantic halibut","Atlantic halibut - Hippoglossus hippoglossus",601371
+"Melanogrammus aeglefinus","Haddock","Haddock - Melanogrammus aeglefinus",601381
+"Microstomus kitt","Lemon sole","Lemon sole - Microstomus kitt",601382
+"Molva dypterygia","Blue ling","Blue ling - Molva dypterygia",601383
+"Etelis coruscans","Deepwater longtail red snapper","Deepwater longtail red snapper - Etelis coruscans",601385
+"Lutjanus argentiventris","Yellow snapper","Yellow snapper - Lutjanus argentiventris",601408
+"Cyprinus carpio","Common carp","Common carp - Cyprinus carpio",601450
+"eye round herring","Red","Red-eye round herring - Etrumeus teres",601455
+"Sardinella gibbosa","Goldstripe sardinella","Goldstripe sardinella - Sardinella gibbosa",601508
+"Alosa aestivalis","Blueback shad","Blueback shad - Alosa aestivalis",601574
+"Alosa caspia","Caspian shad","Caspian shad - Alosa caspia",601577
+"Alosa pseudoharengus","Alewife","Alewife - Alosa pseudoharengus",601583
+"Ilisha africana","West African ilisha","West African ilisha - Ilisha africana",601625
+"Anthias anthias","Swallowtail seaperch","Swallowtail seaperch - Anthias anthias",601692
+"scale sand smelt","Big","Big-scale sand smelt - Atherina boyeri",601696
+"Chromis chromis","Damselfish","Damselfish - Chromis chromis",601706
+"Sciaena umbra","Brown meagre","Brown meagre - Sciaena umbra",601707
+"scaled gurnard","Large","Large-scaled gurnard - Lepidotrigla cavillone",601722
+"Muraena helena","Mediterranean moray","Mediterranean moray - Muraena helena",601729
+"Gymnothorax unicolor","Brown moray","Brown moray - Gymnothorax unicolor",601730
+"Mola mola","Ocean sunfish","Ocean sunfish - Mola mola",601732
+"Molva macrophthalma","Spanish ling","Spanish ling - Molva macrophthalma",601733
+"Molva macrophthalma","Spanish Ling","Spanish Ling - Molva macrophthalma",601733
+"Mora moro","Common mora","Common mora - Mora moro",601734
+"Liza aurata","Golden grey mullet","Golden grey mullet - Liza aurata",601735
+"Liza saliens","Leaping mullet","Leaping mullet - Liza saliens",601736
+"Phycis phycis","Forkbeard","Forkbeard - Phycis phycis",601747
+"Diplodus puntazzo","Sharpsnout seabream","Sharpsnout seabream - Diplodus puntazzo",601749
+"Diplodus annularis","Annular seabream","Annular seabream - Diplodus annularis",601752
+"Diplodus sargus","White seabream","White seabream - Diplodus sargus",601753
+"banded seabream","Common two","Common two-banded seabream - Diplodus vulgaris",601754
+"Pagrus pagrus","Red porgy","Red porgy - Pagrus pagrus",601756
+"Scorpaena porcus","Black scorpionfish","Black scorpionfish - Scorpaena porcus",601758
+"Scorpaena scrofa","Red scorpionfish","Red scorpionfish - Scorpaena scrofa",601759
+"Serranus scriba","Painted comber","Painted comber - Serranus scriba",601761
+"Sphyraena sphyraena","European barracuda","European barracuda - Sphyraena sphyraena",601765
+"Spicara smaris","Picarel","Picarel - Spicara smaris",601766
+"Trachinotus ovatus","Pompano","Pompano - Trachinotus ovatus",601773
+"Uranoscopus scaber","Stargazer","Stargazer - Uranoscopus scaber",601779
+"Acanthurus monroviae","Monrovia doctorfish","Monrovia doctorfish - Acanthurus monroviae",601800
+"Tetrapturus belone","Mediterranean spearfish","Mediterranean spearfish - Tetrapturus belone",601823
+"water Cape hake","Deep","Deep-water Cape hake - Merluccius paradoxus",601826
+"Lethrinus mahsena","Sky emperor","Sky emperor - Lethrinus mahsena",601843
+"Alectis alexandrinus","Alexandria pompano","Alexandria pompano - Alectis alexandrinus",601888
+"Campogramma glaycos","Vadigo","Vadigo - Campogramma glaycos",601894
+"Caranx rhonchus","False scad","False scad - Caranx rhonchus",601899
+"Carangoides fulvoguttatus","Yellowspotted trevally","Yellowspotted trevally - Carangoides fulvoguttatus",601926
+"Caranx crysos","Blue runner","Blue runner - Caranx crysos",601933
+"Antimora rostrata","Blue antimora","Blue antimora - Antimora rostrata",602005
+"Pseudophycis bachus","Red codling","Red codling - Pseudophycis bachus",602020
+"Raja batis","Blue skate","Blue skate - Raja batis",602058
+"Raja clavata","Thornback ray","Thornback ray - Raja clavata",602059
+"Dasyatis pastinaca","Common stingray","Common stingray - Dasyatis pastinaca",602060
+"Acipenser sturio","Sturgeon","Sturgeon - Acipenser sturio",602066
+"Huso huso","Beluga","Beluga - Huso huso",602067
+"spined stickleback","Three","Three-spined stickleback - Gasterosteus aculeatus",602420
+"Diplodus cervinus","Zebra seabream","Zebra seabream - Diplodus cervinus",602497
+"Kyphosus sectatrix","Bermuda sea chub","Bermuda sea chub - Kyphosus sectatrix",602498
+"Chelon labrosus","Thicklip grey mullet","Thicklip grey mullet - Chelon labrosus",602499
+"Thalassoma pavo","Ornate wrasse","Ornate wrasse - Thalassoma pavo",602500
+"Anarhichas lupus","Atlantic wolffish","Atlantic wolffish - Anarhichas lupus",602501
+"Chimaera monstrosa","Rabbit fish","Rabbit fish - Chimaera monstrosa",602503
+"Epigonus telescopus","Black cardinal fish","Black cardinal fish - Epigonus telescopus",602508
+"Petromyzon marinus","Sea lamprey","Sea lamprey - Petromyzon marinus",602530
+"Alopias superciliosus","Bigeye thresher","Bigeye thresher - Alopias superciliosus",602534
+"Alopias vulpinus","Thresher","Thresher - Alopias vulpinus",602535
+"hound","Brown smooth","Brown smooth-hound - Mustelus henlei",602540
+"Dasyatis centroura","Roughtail stingray","Roughtail stingray - Dasyatis centroura",602572
+"Gymnura altavela","Spiny butterfly ray","Spiny butterfly ray - Gymnura altavela",602577
+"Hydrolagus spp","Ratfishes nei","Ratfishes nei - Hydrolagus spp",602589
+"Argentina silus","Greater argentine","Greater argentine - Argentina silus",602700
+"Leuciscus idus","Orfe (=Ide)","Orfe (=Ide) - Leuciscus idus",602801
+"Scardinius erythrophthalmus","Rudd","Rudd - Scardinius erythrophthalmus",602951
+"Rachycentron canadum","Cobia","Cobia - Rachycentron canadum",603542
+"Anarhichas denticulatus","Northern wolffish","Northern wolffish - Anarhichas denticulatus",603810
+"Anarhichas minor","Spotted wolffish","Spotted wolffish - Anarhichas minor",603811
+"Tetrapturus angustirostris","Shortbill spearfish","Shortbill spearfish - Tetrapturus angustirostris",603915
+"Trachyscorpia cristulata","Atlantic thornyhead","Atlantic thornyhead - Trachyscorpia cristulata",604011
+"Triglopsis quadricornis","Fourhorn sculpin","Fourhorn sculpin - Triglopsis quadricornis",604122
+"Hippoglossoides platessoides","American plaice(=Long rough dab)","American plaice(=Long rough dab) - Hippoglossoides platessoides",604239
+"Raja naevus","Cuckoo ray","Cuckoo ray - Raja naevus",604326
+"Raja montagui","Spotted ray","Spotted ray - Raja montagui",604329
+"Myliobatis aquila","Common eagle ray","Common eagle ray - Myliobatis aquila",604330
+"Gymnocephalus cernuu","Ruffe","Ruffe - Gymnocephalus cernuu",604474
+"Dentex gibbosus","Pink dentex","Pink dentex - Dentex gibbosus",604536
+"Dentex maroccanus","Morocco dentex","Morocco dentex - Dentex maroccanus",604538
+"Dentex canariensis","Canary dentex","Canary dentex - Dentex canariensis",604539
+"Sparus caeruleostictus","Bluespotted seabream","Bluespotted seabream - Sparus caeruleostictus",604540
+"Siganus rivulatus","Marbled spinefoot","Marbled spinefoot - Siganus rivulatus",604545
+"Umbrina canariensis","Canary drum (=Baardman)","Canary drum (=Baardman) - Umbrina canariensis",604548
+"Raja brachyura","Blonde ray","Blonde ray - Raja brachyura",604552
+"Trachyrincus scabrus","Roughsnout grenadier","Roughsnout grenadier - Trachyrincus scabrus",604556
+"Xyrichtys novacula","Pearly razorfish","Pearly razorfish - Xyrichtys novacula",604581
+"Labrus merula","Brown wrasse","Brown wrasse - Labrus merula",604582
+"Liza ramada","Thinlip grey mullet","Thinlip grey mullet - Liza ramada",604583
+"Siganus luridus","Dusky spinefoot","Dusky spinefoot - Siganus luridus",604613
+"Galeorhinus galeus","Tope shark","Tope shark - Galeorhinus galeus",604642
+"Pomadasys jubelini","Sompat grunt","Sompat grunt - Pomadasys jubelini",604708
+"Aspius aspius","Asp","Asp - Aspius aspius",604783
+"iuy mullet","So","So-iuy mullet - Mugil soiuy",604791
+"Sphyraena jello","Pickhandle barracuda","Pickhandle barracuda - Sphyraena jello",604827
+"Spicara maena","Blotched picarel","Blotched picarel - Spicara maena",604887
+"Citharus linguatula","Spotted flounder","Spotted flounder - Citharus linguatula",604943
+"Elops lacerta","West African ladyfish","West African ladyfish - Elops lacerta",604959
+"Hoplostethus mediterraneus","Mediterranean slimehead","Mediterranean slimehead - Hoplostethus mediterraneus",604964
+"hound","Smooth","Smooth-hound - Mustelus mustelus",604996
+"Nezumia aequalis","Common Atlantic grenadier","Common Atlantic grenadier - Nezumia aequalis",604997
+"Pomadasys incisus","Bastard grunt","Bastard grunt - Pomadasys incisus",605003
+"Pontinus kuhlii","Offshore rockfish","Offshore rockfish - Pontinus kuhlii",605007
+"Promethichthys prometheus","Roudi escolar","Roudi escolar - Promethichthys prometheus",605008
+"Pseudotolithus senegallus","Law croaker","Law croaker - Pseudotolithus senegallus",605009
+"Raja miraletus","Brown ray","Brown ray - Raja miraletus",605014
+"Trigla lyra","Piper gurnard","Piper gurnard - Trigla lyra",605038
+"Pagrus auriga","Redbanded seabream","Redbanded seabream - Pagrus auriga",605066
+"Psettodes bennettii","Spiny turbot","Spiny turbot - Psettodes bennettii",605068
+"head","Risso's smooth","Risso's smooth-head - Alepocephalus rostratus",605071
+"Chelidonichthys lastoviza","Streaked gurnard","Streaked gurnard - Chelidonichthys lastoviza",605081
+"Lophius budegassa","Blackbellied angler","Blackbellied angler - Lophius budegassa",605094
+"Borostomias antarcticus","Snaggletooth","Snaggletooth - Borostomias antarcticus",605098
+"Epinephelus fasciatus","Blacktip grouper","Blacktip grouper - Epinephelus fasciatus",605348
+"Epinephelus morrhua","Comet grouper","Comet grouper - Epinephelus morrhua",605353
+"edged lyretail","Yellow","Yellow-edged lyretail - Variola louti",605354
+"Alosa fallax","Twaite shad","Twaite shad - Alosa fallax",605355
+"Halobatrachus didactylus","Lusitanian toadfish","Lusitanian toadfish - Halobatrachus didactylus",605429
+"Fistularia commersonii","Bluespotted cornetfish","Bluespotted cornetfish - Fistularia commersonii",605444
+"eyed ray","Small","Small-eyed ray - Raja microocellata",605492
+"Kyphosus vaigiensis","Brassy chub","Brassy chub - Kyphosus vaigiensis",605806
+"Pseudocarcharias kamoharai","Crocodile shark","Crocodile shark - Pseudocarcharias kamoharai",605923
+"hound","Spotted estuary smooth","Spotted estuary smooth-hound - Mustelus lenticulatus",605933
+"Mustelus asterias","Starry smoothhound","Starry smoothhound - Mustelus asterias",605938
+"Mulloidichthys flavolineatus","Yellowstripe goatfish","Yellowstripe goatfish - Mulloidichthys flavolineatus",605983
+"Raja lintea","Sailray","Sailray - Raja lintea",606422
+"Cephalopholis miniata","Coral hind","Coral hind - Cephalopholis miniata",606450
+"Cephalopholis sonnerati","Tomato hind","Tomato hind - Cephalopholis sonnerati",606454
+"Epinephelus marginatus","Dusky grouper","Dusky grouper - Epinephelus marginatus",606470
+"Raja georgiana","Antarctic starry skate","Antarctic starry skate - Raja georgiana",606953
+"Muraenolepis microps","Smalleye moray cod","Smalleye moray cod - Muraenolepis microps",607126
+"Balistes capriscus","Grey triggerfish","Grey triggerfish - Balistes capriscus",607327
+"Polymixia nobilis","Stout beardfish","Stout beardfish - Polymixia nobilis",607557
+"Raja alba","White skate","White skate - Raja alba",607613
+"Raja circularis","Sandy ray","Sandy ray - Raja circularis",607614
+"Raja oxyrinchus","Longnosed skate","Longnosed skate - Raja oxyrinchus",607616
+"Raja undulata","Undulate ray","Undulate ray - Raja undulata",607617
+"Mobula mobular","Devil fish","Devil fish - Mobula mobular",607618
+"Raja fullonica","Shagreen ray","Shagreen ray - Raja fullonica",607619
+"Sorsogona prionota","Halfspined flathead","Halfspined flathead - Sorsogona prionota",607897
+"Parapristipoma octolinea","African striped grunt","African striped grunt - Parapristipoma octolinea",608092
+"Aphanopus intermedius","Intermediate scabbardfish","Intermediate scabbardfish - Aphanopus intermedius",608540
+"Solea senegalensis","Senegalese sole","Senegalese sole - Solea senegalensis",608852
+"Raja nidarosiensis","Norwegian skate","Norwegian skate - Raja nidarosiensis",608900
+"Raja asterias","Mediterranean starry ray","Mediterranean starry ray - Raja asterias",608924
+"Spectrunculus grandis","Spectrunculus grandis","Spectrunculus grandis",608991
+"eyed rabbitfish","Large","Large-eyed rabbitfish - Hydrolagus mirabilis",609000
+"Rhinochimaera atlantica","Straightnose rabbitfish","Straightnose rabbitfish - Rhinochimaera atlantica",609005
+"Gymnothorax maderensis","Sharktooth moray","Sharktooth moray - Gymnothorax maderensis",609033
+"Epinephelus caninus","Dogtooth grouper","Dogtooth grouper - Epinephelus caninus",609217
+"Raja hyperborea","Arctic skate","Arctic skate - Raja hyperborea",609256
+"Patagonotothen ramsayi","Longtail Southern cod","Longtail Southern cod - Patagonotothen ramsayi",610308
+"Abudefduf luridus","Canary damsel","Canary damsel - Abudefduf luridus",611820
+"Sparisoma cretense","Parrotfish","Parrotfish - Sparisoma cretense",613025
+"Glaucosoma hebraicum","Westralian jewfish","Westralian jewfish - Glaucosoma hebraicum",614956
+"Mesogobius batrachocephalus","Knout goby","Knout goby - Mesogobius batrachocephalus",616305
+"Trachyscorpia echinata","Spiny scorpionfish","Spiny scorpionfish - Trachyscorpia echinata",617286
+"Pandalus montagui","Aesop shrimp","Aesop shrimp - Pandalus montagui",690003
+"Illex argentinus","Argentine shortfin squid","Argentine shortfin squid - Illex argentinus",690023
+"Argopecten irradians","Atlantic bay scallop","Atlantic bay scallop - Argopecten irradians",690030
+"Xiphopenaeus kroyeri","Atlantic seabob","Atlantic seabob - Xiphopenaeus kroyeri",690032
+"Spisula solidissima","Surf clam","Surf clam - Spisula solidissima",690033
+"Mitella pollicipes","Barnacle","Barnacle - Mitella pollicipes",690043
+"Aristeus antennatus","Blue and red shrimp","Blue and red shrimp - Aristeus antennatus",690051
+"Mytilus edulis","Blue mussel","Blue mussel - Mytilus edulis",690053
+"Illex coindetii","Broadtail shortfin squi","Broadtail shortfin squi - Illex coindetii",690059
+"Loligo vulgaris","European squid","European squid - Loligo vulgaris",690067
+"Panulirus argus","Caribbean spiny lobster","Caribbean spiny lobster - Panulirus argus",690071
+"Sepia officinalis","Common cuttlefish","Common cuttlefish - Sepia officinalis",690085
+"Octopus vulgaris","Common octopus","Common octopus - Octopus vulgaris",690088
+"Littorina littorea","Common periwinkle","Common periwinkle - Littorina littorea",690089
+"Palaemon serratus","Common prawn","Common prawn - Palaemon serratus",690090
+"Crangon crangon","Common shrimp","Common shrimp - Crangon crangon",690091
+"Palinurus elephas","Common spiny lobster","Common spiny lobster - Palinurus elephas",690092
+"Parapenaeus longirostris","Deepwater rose shrimp","Deepwater rose shrimp - Parapenaeus longirostris",690109
+"Cancer pagurus","Edible crab","Edible crab - Cancer pagurus",690119
+"urchin","European edible sea","European edible sea-urchin - Echinus esculentus",690122
+"Ostrea edulis","European flat oyster","European flat oyster - Ostrea edulis",690123
+"Todarodes sagittatus","European flying squid","European flying squid - Todarodes sagittatus",690124
+"Homarus gammarus","European lobster","European lobster - Homarus gammarus",690125
+"Solen marginatus","European razor clam","European razor clam - Solen marginatus",690126
+"Penaeus monodon","Giant tiger prawn","Giant tiger prawn - Penaeus monodon",690151
+"Pecten maximus","Great Atlantic scallop","Great Atlantic scallop - Pecten maximus",690156
+"Pecten jacobaeus","Great Mediterranean scallop","Great Mediterranean scallop - Pecten jacobaeus",690157
+"Carcinus maenas","Green crab","Green crab - Carcinus maenas",690158
+"Tapes decussatus","Grooved carpet shell","Grooved carpet shell - Tapes decussatus",690166
+"squirt","Grooved sea","Grooved sea-squirt - Microcosmus sulcatus",690167
+"Chlamys islandica","Icelandic scallop","Icelandic scallop - Chlamys islandica",690185
+"Ruditapes philippinarum","Japanese carpet shell","Japanese carpet shell - Ruditapes philippinarum",690196
+"Corbicula manilensis","Manila clam","Manila clam - Corbicula manilensis",690233
+"Mytilus galloprovincialis","Mediterranean mussel","Mediterranean mussel - Mytilus galloprovincialis",690241
+"Carcinus aestuarii","Mediterranean shore craB","Mediterranean shore craB - Carcinus aestuarii",690242
+"Pecten novaezelandiae","New Zealand scallop","New Zealand scallop - Pecten novaezelandiae",690259
+"Pandalus borealis","Northern prawn","Northern prawn - Pandalus borealis",690269
+"Mercenaria mercenaria","Northern quahog(=Hard clam)","Northern quahog(=Hard clam) - Mercenaria mercenaria",690270
+"Illex illecebrosus","Northern shortfin squid","Northern shortfin squid - Illex illecebrosus",690271
+"Nephrops norvegicus","Norway lobster","Norway lobster - Nephrops norvegicus",690273
+"Arctica islandica","Ocean quahog","Ocean quahog - Arctica islandica",690275
+"Crassostrea gigas","Pacific cupped oyster","Pacific cupped oyster - Crassostrea gigas",690283
+"Loligo gahi","Patagonian squid","Patagonian squid - Loligo gahi",690296
+"Palinurus mauritanicus","Pink spiny lobster","Pink spiny lobster - Palinurus mauritanicus",690305
+"Chionoecetes opilio","Queen crab","Queen crab - Chionoecetes opilio",690313
+"Asterias rubens","Red starfish","Red starfish - Asterias rubens",690324
+"Panulirus regius","Royal spiny lobster","Royal spiny lobster - Panulirus regius",690336
+"Mya arenaria","Soft clam","Soft clam - Mya arenaria",690337
+"Plesiopenaeus edwardsian","Scarlet shrimp","Scarlet shrimp - Plesiopenaeus edwardsian",690343
+"Martialia hyadesi","Sevenstar flying squid","Sevenstar flying squid - Martialia hyadesi",690354
+"Maja squinado","Spinous spider crab","Spinous spider crab - Maja squinado",690387
+"Squilla mantis","Spottail mantis squillid","Spottail mantis squillid - Squilla mantis",690392
+"Lithodes maia","Stone king crab","Stone king crab - Lithodes maia",690399
+"urchin","Stony sea","Stony sea-urchin - Paracentrotus lividus",690400
+"Aristeus varidens","Striped red shrimp","Striped red shrimp - Aristeus varidens",690403
+"Chamelea gallina","Striped venus","Striped venus - Chamelea gallina",690404
+"Haliotis tuberculata","Tuberculate abalone","Tuberculate abalone - Haliotis tuberculata",690420
+"Necora puber","Velvet swimcrab","Velvet swimcrab - Necora puber",690425
+"Patinopecten caurinus","Weathervane scallop","Weathervane scallop - Patinopecten caurinus",690429
+"Buccinum undatum","Whelk","Whelk - Buccinum undatum",690434
+"Ommastrephes bartrami","Neon flying squid","Neon flying squid - Ommastrephes bartrami",690470
+"Loligo forbesi","Veined squid","Veined squid - Loligo forbesi",690595
+"Scyllarides latus","Mediterranean slipper lobster","Mediterranean slipper lobster - Scyllarides latus",690598
+"Cerastoderma edule","Common edible cockle","Common edible cockle - Cerastoderma edule",690605
+"Paralithodes camtschaticus","Red king crab","Red king crab - Paralithodes camtschaticus",690621
+"Venerupis pullastra","Carpet shell","Carpet shell - Venerupis pullastra",690630
+"Spisula ovalis","Oval surf clam","Oval surf clam - Spisula ovalis",690631
+"Spisula solida","Solid surf clam","Solid surf clam - Spisula solida",690671
+"Venerupis rhomboides","Banded carpet shell","Banded carpet shell - Venerupis rhomboides",690675
+"leg swimcrab","Blue","Blue-leg swimcrab - Liocarcinus depurator",690676
+"Glycymeris glycymeris","Common European bittersweet","Common European bittersweet - Glycymeris glycymeris",690678
+"Palaemon longirostris","Delta prawn","Delta prawn - Palaemon longirostris",690680
+"Aristaeomorpha foliacea","Giant red shrimp","Giant red shrimp - Aristaeomorpha foliacea",690683
+"Eledone cirrosa","Horned octopus","Horned octopus - Eledone cirrosa",690684
+"Charonia rubicunda","Knobbed triton","Knobbed triton - Charonia rubicunda",690685
+"Scrobicularia plana","Peppery furrow","Peppery furrow - Scrobicularia plana",690687
+"Bolinus brandaris","Purple dye murex","Purple dye murex - Bolinus brandaris",690689
+"Callista chione","Smooth callista","Smooth callista - Callista chione",690690
+"Venus verrucosa","Warty venus","Warty venus - Venus verrucosa",690693
+"Acanthocardia tuberculata","Tuberculate cockle","Tuberculate cockle - Acanthocardia tuberculata",690752
+"sea red crab","Deep","Deep-sea red crab - Chaceon affinis",690753
+"Ensis ensis","Pod razor shell","Pod razor shell - Ensis ensis",690754
+"Ensis siliqua","Sword razor shell","Sword razor shell - Ensis siliqua",690755
+"Laevicardium crassum","Norwegian egg cockle","Norwegian egg cockle - Laevicardium crassum",690756
+"Palaemonetes varians","Atlantic ditch shrimp","Atlantic ditch shrimp - Palaemonetes varians",690758
+"Pharus legumen","Bean solen","Bean solen - Pharus legumen",690759
+"Ranina ranina","Spanner crab","Spanner crab - Ranina ranina",690883
+"Rapana venosa","Thomas' rapa whelk","Thomas' rapa whelk - Rapana venosa",690897
