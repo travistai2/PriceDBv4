@@ -1,0 +1,13 @@
+Year,TaxonKey,ISSCAAP,ClaCode,OrdCode,FamCode,GenCode,SpeCode,TargetGrpNum,CODE
+1,1,0,0,0,0,0,0,0,TaxonKey:Match
+1,0,0,0,0,0,1,0,1,GenTGN:Match
+1,0,0,0,0,0,1,0,0,Gen:Match
+1,0,0,0,0,1,0,0,1,FamTGN:Match
+1,0,0,0,0,1,0,0,0,Fam:Match
+1,0,1,0,0,0,0,0,1,ISSTGN:Match
+1,0,1,0,0,0,0,0,0,ISSCAAP:Match
+1,0,0,0,1,0,0,0,1,OrdTGN:Match
+1,0,0,0,1,0,0,0,0,Ord:Match
+1,0,0,1,0,0,0,0,1,ClaTGN:Match
+1,0,0,1,0,0,0,0,0,Cla:Match
+1,0,0,0,0,0,0,0,1,TGN:Match
