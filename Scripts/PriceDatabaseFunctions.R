@@ -22,9 +22,7 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   ##### STEP 1 ##### 
   ## find matching price data for Country:Year:TaxonKey
   
-  tdat<-catch.dat %>% filter(Year %in% years) %>%
-    filter(TaxonKey > 600000) %>% ## REMOVE
-    sample_n(10,replace=F)  ## REMOVE
+  tdat<-catch.dat %>% filter(Year %in% years)
   
   tcatch.dat<-tdat %>% 
     left_join(tdat %>% select(Year,FishingEntityID,TaxonKey) %>%
@@ -68,8 +66,6 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   pb <- txtProgressBar(min = 0, max = nrow(iprice.dat), style = 3)
   
   for(i in 1:nrow(iprice.dat)){
-    
-    
     SCH<-code.key                   ## CodingKey
     ext.dat<-data.frame()           ## Create empty data for extracting reported prices
     
@@ -107,8 +103,14 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
     if(nrow(ext.dat)>=minData){
       try(fit1<-nls(log(ObservedPrice)~log(a)+log(PPP),data=ext.dat,start=list(a=1)),silent=T)
       
-      while(exists("fit1")==F |  ## if fitted model doesn't exist, match by broader taxonclass and add more data
-            summary(fit1)$coefficients[,4]>=alpha){ ## ORif fitted model is not significant 
+      if(exists("fit1")==T){  ## if model is fitted but p-value is > alpha_value
+        if(summary(fit1)$coefficients[,4]>=alpha){ ## model is not significant
+          rm(fit1)
+        }
+      }
+      
+      
+      while(exists("fit1")==F){  ## if fitted model doesn't exist, match by broader taxonclass and add more data
         
         if(nrow(SCH)==0){break}   ## end the while loop if reach the end of the schematic code
         
@@ -140,14 +142,14 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
                   iP,iP_CI,NRow,iP_pval,
                   Cd,sep="\t"),file=file.out,sep="\n",append = T)
       } else {
-        tOUT<-SecondMatch.FUNC(xdat,minData)
+        tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
         cat(tOUT,file=file.out,sep="\n",append = T)
         rm(tOUT)
       }
       rm(fit1)
       
     } else {
-      tOUT<-SecondMatch.FUNC(xdat,minData)
+      tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
       cat(tOUT,file=file.out,sep="\n",append = T)
       rm(tOUT)
     }
@@ -171,6 +173,8 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   tbinddat<-tempdat.na %>%  ## Match NA prices to International price data and estimate local currencies
     select(Year,FishingEntityID,TaxonKey,PPP.XRAT) %>% 
     left_join(iprice.dat %>% select(-ID), by=c("Year","TaxonKey")) %>%
+    mutate(MatchCode = paste0(MatchCode,ifelse(is.na(PPP.XRAT),":PPP_NA",""))) %>%
+    replace_na(list(PPP.XRAT=1)) %>%
     mutate(PriceUSD_Mean = IPrice_Mean*PPP.XRAT/100,  ## convert Iprice to PriceUSD
            PriceUSD_CI = IPrice_CI*PPP.XRAT/100,
            Price_N = IPrice_N) %>%
@@ -187,9 +191,10 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   ## Match with US CPI and convert to USD and correct with inflation
   tempdat1<-tcatch.dat %>% 
     left_join(tcpi.dat,by="Year") %>%
-    mutate(Price2010USD_Mean = PriceUSD_Mean*(IndYr/100),
-           Price2010USD_CI = PriceUSD_CI*(IndYr/100)) %>%
+    mutate(PriceYEARUSD_Mean = PriceUSD_Mean*(IndYr/100),
+           PriceYEARUSD_CI = PriceUSD_CI*(IndYr/100)) %>%
     select(-XRAT,-PPP.XRAT,-PPP,-PriceUSD_Mean,-PriceUSD_CI,-IndYr)
+  names(tempdat1)[6:7]<-paste0("Price",RelYr,"USD_",c("Mean","CI"))
   
   tcatch.dat<-tempdat1
   rm(tempdat1)
@@ -202,19 +207,21 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
 ## Subroutine function 
 ##########
 
-SecondMatch.FUNC<-function(x,minData){  ## function to match prices if initial matching fails;
+SecondMatch.FUNC<-function(x,minData,tRelYr,tcpi.dat){  ## function to match prices if initial matching fails;
   ## 1st: matching by CPI-adjusted TaxonKey, 2nd: year-median price
   CPI.ratio<-(tcpi.dat$IndYr[which(tcpi.dat$Year==x$Year)]) / 
-    (tcpi.dat$IndYr[which(tcpi.dat$Year==2010)])
+    (tcpi.dat$IndYr[which(tcpi.dat$Year==tRelYr)])
   
   ext.dat<-report.dat %>% filter(TaxonKey == x$TaxonKey) %>%
     left_join(tcpi.dat,by="Year") %>%
     mutate(IPrice = ObservedPrice/PPP,
-           IPrice2010 = ObservedPrice/PPP*(IndYr/100))
+           IPriceRelYrDoll = ObservedPrice/PPP*(IndYr/100)) %>%
+    drop_na(IPrice)
+  
   if(nrow(ext.dat)>minData){
     
-    iP<-mean(ext.dat$IPrice2010)*CPI.ratio
-    iP_CI<-sd(ext.dat$IPrice2010)/sqrt(nrow(ext.dat))*CPI.ratio
+    iP<-mean(ext.dat$IPriceRelYrDoll,na.rm=T)*CPI.ratio
+    iP_CI<-sd(ext.dat$IPriceRelYrDoll,na.rm=T)/sqrt(nrow(ext.dat))*CPI.ratio
     NRow<-nrow(ext.dat)
     iP_pval<-NA
     Cd<-"TaxaAveTime"
@@ -227,12 +234,13 @@ SecondMatch.FUNC<-function(x,minData){  ## function to match prices if initial m
     ext.dat<-report.dat %>% filter(Year == x$Year)  %>%
       left_join(tcpi.dat,by="Year") %>%
       mutate(IPrice = ObservedPrice/PPP,
-             IPrice2010 = ObservedPrice/PPP*(IndYr/100))
-    MedIPrice2010<-median(ext.dat$IPrice2010,na.rm=T)
+             IPriceRelYrDoll = ObservedPrice/PPP*(IndYr/100)) %>%
+      drop_na(IPrice)
+    MeanIPriceRelYrDoll<-median(ext.dat$IPriceRelYrDoll,na.rm=T)*CPI.ratio
+    CIIPriceRelYrDoll<-sd(ext.dat$IPriceRelYrDoll,na.rm=T)/sqrt(nrow(ext.dat))*CPI.ratio
     
-    
-    iP<-MedIPrice2010
-    iP_CI<-NA
+    iP<-MeanIPriceRelYrDoll
+    iP_CI<-NA  ## using median so no CI; if using mean then us iP_CI<-CIIPriceRelYrDoll
     NRow<-nrow(ext.dat)
     iP_pval<-NA
     Cd<-"YearMedian"
