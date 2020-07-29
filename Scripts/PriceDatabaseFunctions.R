@@ -22,19 +22,22 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   ##### STEP 1 ##### 
   ## find matching price data for Country:Year:TaxonKey
   
-  tdat<-catch.dat %>% filter(Year %in% years)
+  tdat<-catch.dat %>% filter(Year %in% years) 
+  
+  tdat1<-tdat %>% select(Year,FishingEntityID,TaxonKey) %>%
+    left_join(report.dat,by = c("Year","FishingEntityID","TaxonKey")) %>% 
+    na.omit() %>%
+    group_by(Year,FishingEntityID,TaxonKey) %>%
+    summarize(Price_Mean = mean(ObservedPrice),
+              Price_CI = 1.96*sd(ObservedPrice,na.rm=T)/sqrt(length(ObservedPrice)),
+              Price_N = length(ObservedPrice)) %>% 
+    mutate(Price_CI = ifelse(is.na(Price_Mean)==F &
+                               is.na(Price_CI)==T,0,Price_CI)) %>%
+    mutate(MatchCode = "TaxonKeyCntry:Match")
+  
   
   tcatch.dat<-tdat %>% 
-    left_join(tdat %>% select(Year,FishingEntityID,TaxonKey) %>%
-                left_join(report.dat,by = c("Year","FishingEntityID","TaxonKey")) %>% 
-                na.omit() %>%
-                group_by(Year,FishingEntityID,TaxonKey) %>%
-                summarize(Price_Mean = mean(ObservedPrice),
-                          Price_CI = 1.96*sd(ObservedPrice,na.rm=T)/sqrt(length(ObservedPrice)),
-                          Price_N = length(ObservedPrice)) %>% 
-                mutate(Price_CI = ifelse(is.na(Price_Mean)==F &
-                                           is.na(Price_CI)==T,0,Price_CI)) %>%
-                mutate(MatchCode = "TaxonKeyCntry:Match"),
+    left_join(tdat1,
               by = c("Year","FishingEntityID","TaxonKey")) %>%
     left_join(ppp,by=c("Year","FishingEntityID"))
 
@@ -51,6 +54,7 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
   ## print number of taxon that are not in the taxon table database
   no.match<-iprice.dat$TaxonKey[-which(iprice.dat$TaxonKey %in% taxa.dat$TaxonKey)]
   print(paste0("# taxon w/out match: ",length(no.match)))
+  print(no.match)
   
   ## create directory and output file for International prices
   date<-Sys.Date()
@@ -178,22 +182,19 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
     mutate(PriceUSD_Mean = IPrice_Mean*PPP.XRAT/100,  ## convert Iprice to PriceUSD
            PriceUSD_CI = IPrice_CI*PPP.XRAT/100,
            Price_N = IPrice_N) %>%
-    select(-IPrice_Mean,-IPrice_CI,-IPrice_N,-IPrice_pval)
-  tempcatch.dat<-tempdat.na %>% ## join Step 2 prices with Step 1 prices
-    select(-Price_N,-MatchCode,-PPP.XRAT)
-  tcatch.dat<-tempcatch.dat %>%
-    left_join(tbinddat, by=c("Year","FishingEntityID","TaxonKey")) %>%
-    bind_rows(tempdat)
-  rm(tempdat,tempdat.na,tbinddat,tempcatch.dat)
+    select(-IPrice_Mean,-IPrice_CI,-IPrice_N,-IPrice_pval,-PPP.XRAT)
+  tcatch.dat2<-tbinddat %>%
+    bind_rows(tempdat %>% select(-XRAT,-PPP,-PPP.XRAT))
+  rm(tempdat,tempdat.na,tbinddat)
   
   
   ##### STEP 4 #####
   ## Match with US CPI and convert to USD and correct with inflation
-  tempdat1<-tcatch.dat %>% 
+  tempdat1<-tcatch.dat2 %>% 
     left_join(tcpi.dat,by="Year") %>%
     mutate(PriceYEARUSD_Mean = PriceUSD_Mean*(IndYr/100),
            PriceYEARUSD_CI = PriceUSD_CI*(IndYr/100)) %>%
-    select(-XRAT,-PPP.XRAT,-PPP,-PriceUSD_Mean,-PriceUSD_CI,-IndYr)
+    select(-PriceUSD_Mean,-PriceUSD_CI,-IndYr)
   names(tempdat1)[6:7]<-paste0("Price",RelYr,"USD_",c("Mean","CI"))
   
   tcatch.dat<-tempdat1
@@ -220,12 +221,15 @@ SecondMatch.FUNC<-function(x,minData,tRelYr,tcpi.dat){  ## function to match pri
   
   if(nrow(ext.dat)>minData){
     
+    tYear<-
+    tTaxon<-x$TaxonKey
+    tID<-x
     iP<-mean(ext.dat$IPriceRelYrDoll,na.rm=T)*CPI.ratio
     iP_CI<-sd(ext.dat$IPriceRelYrDoll,na.rm=T)/sqrt(nrow(ext.dat))*CPI.ratio
     NRow<-nrow(ext.dat)
     iP_pval<-NA
     Cd<-"TaxaAveTime"
-    out.line<-paste(tYear,tTaxon,xdat$ID,
+    out.line<-paste(x$Year,x$TaxonKey,x$ID,
                     iP,iP_CI,NRow,iP_pval,
                     Cd,sep="\t")
     return(out.line)
@@ -244,7 +248,7 @@ SecondMatch.FUNC<-function(x,minData,tRelYr,tcpi.dat){  ## function to match pri
     NRow<-nrow(ext.dat)
     iP_pval<-NA
     Cd<-"YearMedian"
-    out.line<-paste(tYear,tTaxon,xdat$ID,
+    out.line<-paste(x$Year,x$TaxonKey,x$ID,
                     iP,iP_CI,NRow,iP_pval,
                     Cd,sep="\t")
     return(out.line)
