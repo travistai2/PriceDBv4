@@ -62,6 +62,10 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
   select(Year,FishingEntityID,TaxonKey)
   #select(-DHC_Amount,-FMFO_Amount,-Other_Amount) ## Filter out unneeded columns
 
+catch.dat<-catch.dat %>% ## run this for diagnostic testing
+  filter(FishingEntityID == 7) %>% filter(Year==2013) %>% 
+  filter(TaxonKey %in% c(490042,490020,690039))
+
 
 
 
