@@ -13,7 +13,7 @@ require("tidyverse","tidyselect")
 ##########
 ## Full model function to match prices, estimate international prices 
 ##########
-PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate international prices
+PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## estimate international prices
   
   tcpi.dat<-cpi.dat %>% 
     mutate(IndYr = Index/(Index[which(Year==RelYr)])*100) %>%
@@ -65,6 +65,10 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
             "IPrice_Mean","IPrice_CI","IPrice_N","IPrice_pval",
             "MatchCode",sep="\t"),
       file=file.out,sep="\n")
+  
+  ## testing model: create output for extracted data
+  debug.out<-data.frame()
+  
   
   ## progress bar for iprice loop
   pb <- txtProgressBar(min = 0, max = nrow(iprice.dat), style = 3)
@@ -157,10 +161,29 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05){ ## estimate int
       cat(tOUT,file=file.out,sep="\n",append = T)
       rm(tOUT)
     }
+    
+    ##
+    if(debugtest==T){
+      text.dat<-ext.dat %>%
+        mutate(IDforPrice = xdat$ID,
+               MatchCode = SCH[1,"CODE"],
+               IPrice = ObservedPrice/PPP,
+               PriceUSD = ObservedPrice/XRAT)
+      debug.out<-rbind(debug.out,text.dat)
+    }
+    
     # update progress bar
     setTxtProgressBar(pb, i)
   }
   close(pb)
+  
+  ## testing output of ext.dat
+  if(debugtest==T){
+    debug.file<-paste0("./Output/DebugExtractReportedData_",date,".csv")
+    write.csv(debug.out,debug.file,row.names=F)
+  }
+  rm(debug.out,debug.file)
+  ##
   
   iprice.dat<-read.table(file.out,header=T,sep="\t",stringsAsFactors = F)  ## read in IPrice text file
   
@@ -221,9 +244,6 @@ SecondMatch.FUNC<-function(x,minData,tRelYr,tcpi.dat){  ## function to match pri
   
   if(nrow(ext.dat)>minData){
     
-    tYear<-
-    tTaxon<-x$TaxonKey
-    tID<-x
     iP<-mean(ext.dat$IPriceRelYrDoll,na.rm=T)*CPI.ratio
     iP_CI<-sd(ext.dat$IPriceRelYrDoll,na.rm=T)/sqrt(nrow(ext.dat))*CPI.ratio
     NRow<-nrow(ext.dat)

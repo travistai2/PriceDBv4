@@ -14,7 +14,7 @@
 rm(list=ls())
 ## set working directory
 setwd("C:/Users/t.tai/Documents/GitHub/PriceDBv4")
-setwd("/Users/sydascione/Desktop/SAU Price DB/PriceDBv4") ## set this to your WD
+setwd("Someworkingdirectory") ## set this to your WD
 
 
 # Read libraries
@@ -62,6 +62,10 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
   select(Year,FishingEntityID,TaxonKey)
   #select(-DHC_Amount,-FMFO_Amount,-Other_Amount) ## Filter out unneeded columns
 
+catch.dat<-catch.dat %>% ## run this for diagnostic testing
+  filter(FishingEntityID == 7) %>% filter(Year==2013) %>% 
+  filter(TaxonKey %in% c(490042,490020,690039))
+
 
 
 
@@ -73,11 +77,7 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
 
 ##### PARAMETERS #####
 
-<<<<<<< HEAD
-yrs<-2011:2016  ## which year(s) to estimate prices for
-=======
 yrs<-2013  ## which year(s) to estimate prices for
->>>>>>> 5062a8a34a1a3746270ba2b48bb4110fa35b9bbe
 refyear<-2010   ## price reference year for inflation; default=2010 dollars
 mindat<-3   ## minimum number of datapoints for price estimation; default=3
 p.alpha<-0.05  ## alpha value for model estimation; default=0.05
