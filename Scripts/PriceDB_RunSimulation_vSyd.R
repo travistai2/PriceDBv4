@@ -14,7 +14,7 @@
 rm(list=ls())
 ## set working directory
 setwd("C:/Users/t.tai/Documents/GitHub/PriceDBv4")
-setwd("/Users/sydascione/Desktop/SAU Price DB/PriceDBv4") ## set this to your WD
+setwd("~/Desktop/SAU Price DB/PriceDBv4") ## set this to your WD
 
 
 # Read libraries
@@ -41,12 +41,12 @@ taxa.dat<-read.csv("./Data - syd/taxa.dat_updatedTT.csv",header=T,na.strings=c("
                    stringsAsFactors=F)
 
 ## PPP tables
-ppp<-read.csv("./Data - syd/ppp.dat.csv",header=T,na.strings=c("","NA"),strip.white=T,
+ppp<-read.csv("./Data - syd/ppp.dat_updatedSA.csv",header=T,na.strings=c("","NA"),strip.white=T,
               stringsAsFactors=F) %>%
   select(Year,FishingEntityID,XRAT,PPP,PPP.XRAT)   ## filter out PPP columns
 
 ## reported price data
-report.dat<-read.csv("./Data - syd/report.dat.csv",header=T,na.strings=c("","NA"),strip.white=T,
+report.dat<-read.csv("./Data - syd/report.dat_filteredSA.csv",header=T,na.strings=c("","NA"),strip.white=T,
                      stringsAsFactors=F) %>%
   select(Year,FishingEntityID,TaxonKey,ObservedPrice,EndProduct) %>% ## Filter out columns
   filter(ObservedPrice>0) %>%   ## Remove observed prices of zero
@@ -73,11 +73,7 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
 
 ##### PARAMETERS #####
 
-<<<<<<< HEAD
-yrs<-2011:2016  ## which year(s) to estimate prices for
-=======
 yrs<-2013  ## which year(s) to estimate prices for
->>>>>>> 5062a8a34a1a3746270ba2b48bb4110fa35b9bbe
 refyear<-2010   ## price reference year for inflation; default=2010 dollars
 mindat<-3   ## minimum number of datapoints for price estimation; default=3
 p.alpha<-0.05  ## alpha value for model estimation; default=0.05
