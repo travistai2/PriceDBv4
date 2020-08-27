@@ -138,6 +138,12 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
         ext.dat<-report.dat %>% filter(Year == tYear, TaxonKey %in% tSpp$TaxonKey) ## extract price data
         
         try(fit1<-nls(log(ObservedPrice)~log(a)+log(PPP),data=ext.dat,start=list(a=1)),silent=T)
+        
+        if(exists("fit1")==T){  ## if model is fitted but p-value is > alpha_value
+          if(summary(fit1)$coefficients[,4]>=alpha){ ## model is not significant
+            rm(fit1)
+          }
+        }
       }
       
       if(exists("fit1")==T & summary(fit1)$coefficients[,4]<alpha){ ## if model is fitted and is significant
@@ -164,12 +170,14 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
     
     ##
     if(debugtest==T){
-      text.dat<-ext.dat %>%
-        mutate(IDforPrice = xdat$ID,
-               MatchCode = SCH[1,"CODE"],
-               IPrice = ObservedPrice/PPP,
-               PriceUSD = ObservedPrice/XRAT)
-      debug.out<-rbind(debug.out,text.dat)
+      if(nrow(ext.dat>0)){
+        text.dat<-ext.dat %>%
+          mutate(IDforPrice = xdat$ID,
+                 MatchCode = SCH[1,"CODE"],
+                 IPrice = ObservedPrice/PPP,
+                 PriceUSD = ObservedPrice/XRAT)
+        debug.out<-rbind(debug.out,text.dat)
+      }
     }
     
     # update progress bar

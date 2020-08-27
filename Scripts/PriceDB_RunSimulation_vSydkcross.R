@@ -113,7 +113,7 @@ for(i in 1:(1/test_prop)){
     frac<-floor(nrow(trep)*test_prop)
     n_ind<-sample(1:nrow(trep),nrow(trep),replace=F)
     for(i in 1:(1/test_prop)){
-      
+      n_ind
       
       tn_ind<-n_ind[]
       trep[]

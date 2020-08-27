@@ -46,7 +46,7 @@ ppp<-read.csv("./Data - syd/ppp.dat_updatedSA.csv",header=T,na.strings=c("","NA"
   select(Year,FishingEntityID,XRAT,PPP,PPP.XRAT)   ## filter out PPP columns
 
 ## reported price data
-report.dat<-read.csv("./Data - syd/report.dat_filteredSA.csv",header=T,na.strings=c("","NA"),strip.white=T,
+report.dat<-read.csv("./Data - syd/report.dat_IPricefilteredSA.csv",header=T,na.strings=c("","NA"),strip.white=T,
                      stringsAsFactors=F) %>%
   select(Year,FishingEntityID,TaxonKey,ObservedPrice,EndProduct) %>% ## Filter out columns
   filter(ObservedPrice>0) %>%   ## Remove observed prices of zero
