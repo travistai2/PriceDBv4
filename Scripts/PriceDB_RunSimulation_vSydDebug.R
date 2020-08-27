@@ -1,6 +1,6 @@
 ####################
 #
-# PRICE DATABASE
+# PRICE DATABASE - model to debug high prices
 # Rewriting the algorithm to estimate international prices
 #   Calculating estimated prices for current catch database
 #   

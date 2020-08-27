@@ -59,7 +59,7 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
   ## create directory and output file for International prices
   date<-Sys.Date()
   dir.create("./Output",showWarnings = F)
-  file.out<-paste0("./Output/IPrice_",date,".txt")
+  file.out<-paste0("./Output/IPrice_",end_prod,"_",date,".txt")
   print(paste0("International Price output file: ",file.out))
   cat(paste("Year","TaxonKey","ID",
             "IPrice_Mean","IPrice_CI","IPrice_N","IPrice_pval",
@@ -179,7 +179,7 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
   
   ## testing output of ext.dat
   if(debugtest==T){
-    debug.file<-paste0("./Output/DebugExtractReportedData_",date,".csv")
+    debug.file<-paste0("./Output/DebugExtractReportedData_",end_prod,"_",date,".csv")
     write.csv(debug.out,debug.file,row.names=F)
   }
   rm(debug.out,debug.file)

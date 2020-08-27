@@ -106,7 +106,7 @@ timeend-timestart  ## time elapsed
 ##### END SIMULATION #####
 
 
-output.name<-paste0("./Output/PriceDatabaseOutputEstimates_",Sys.Date(),".csv")
+output.name<-paste0("./Output/PriceDatabaseOutputEstimates_",end_prod,"_",Sys.Date(),".csv")
 write.csv(out.dat,output.name,row.names = F)
 
 
