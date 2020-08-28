@@ -73,7 +73,7 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
 
 ##### PARAMETERS #####
 
-yrs<-2013  ## which year(s) to estimate prices for
+yrs<-2011:2016  ## which year(s) to estimate prices for
 refyear<-2010   ## price reference year for inflation; default=2010 dollars
 mindat<-3   ## minimum number of datapoints for price estimation; default=3
 p.alpha<-0.05  ## alpha value for model estimation; default=0.05
