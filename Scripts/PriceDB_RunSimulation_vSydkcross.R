@@ -24,7 +24,9 @@ pckg <- c("tidyverse","tidyselect")
 ipak(pckg)
 
 # Read model functions
-source("./Scripts/PriceDatabaseFunctions.R")
+source("./Scripts/PriceDatabaseFunctions_kcross.R")
+source("./Scripts/PriceDB_kcrossFunc.R")
+
 
 
 ####################
@@ -46,8 +48,6 @@ ppp<-read.csv("./Data - syd/ppp.dat.csv",header=T,na.strings=c("","NA"),strip.wh
               stringsAsFactors=F) %>%
   select(Year,FishingEntityID,XRAT,PPP,PPP.XRAT)   ## filter out PPP columns
 
-
-
 ### US CPI table
 cpi.dat<-read.csv("./Data - syd/cpi.dat.csv",header=T,na.strings=c("","NA"),strip.white=T,
                   stringsAsFactors=F) 
@@ -59,6 +59,7 @@ report.dat<-read.csv("./Data - syd/report.dat.csv",header=T,na.strings=c("","NA"
   select(Year,FishingEntityID,TaxonKey,ObservedPrice,EndProduct) %>% ## Filter out columns
   filter(ObservedPrice>0) %>%   ## Remove observed prices of zero
   left_join(ppp, by=c("Year","FishingEntityID")) 
+treport.dat<-report.dat
 
 
 ## catch data for which prices need to be estimated
@@ -76,7 +77,7 @@ catch.dat<-read.csv("./Data - syd/catch.dat.csv",header=T,na.strings=c("","NA"),
 
 ##### PARAMETERS #####
 
-yrs<-2011:2016  ## which year(s) to estimate prices for
+yrs<-2011  ## which year(s) to estimate prices for
 refyear<-2010   ## price reference year for inflation; default=2010 dollars
 mindat<-3   ## minimum number of datapoints for price estimation; default=3
 p.alpha<-0.05  ## alpha value for model estimation; default=0.05
@@ -88,8 +89,8 @@ report.dat<-report.dat %>% filter(EndProduct == end_prod)
 ## kcross parameters
 ## 
 test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
-# how to sample data: 2) random by year, or 2) systematic (by taxon or country) by year
-samp_type<-"random" ## random, taxon, year
+samp_type<-"cntry_half" ## random, taxa, cntry_half, cntry_all
+# how to sample data: 1) random by year 2) % of unique taxon data 3) % unique cntry 4) % from each cntry
 ##
 
 ##### END PARAMETERS #####
@@ -97,35 +98,46 @@ samp_type<-"random" ## random, taxon, year
 
 
 ##### START SIMULATION #####
-## run code 
 
-test.list<-list()
-train.list<-list()
 
 kcross.out<-list()
 
-
 set.seed(100) ## this sets the "random" point to start at the same place in random sampling
 
-for(i in 1:(1/test_prop)){
-  for(j in 1:yrs){
-    trep<-report.dat %>% filter(Year==yrs[j])
-    frac<-floor(nrow(trep)*test_prop)
-    n_ind<-sample(1:nrow(trep),nrow(trep),replace=F)
-    for(i in 1:(1/test_prop)){
-      n_ind
-      
-      tn_ind<-n_ind[]
-      trep[]
-      
-    }
-    if(samp_type=="random"){
-      
-    }
-    
-  }
-}
+## setting up test and training data
+out.list<-KCross.price(in.repdat = report.dat, years = yrs, tpro = test_prop,
+                       stype = samp_type)
+
+
+tdat1<-out.list[[1]]
+tdat1.t1<-tdat1 %>% filter(test.train=="test")
+tdat1.t2<-tdat1 %>% filter(test.train=="train")
+unique(tdat1.t1$FishingEntityID)
+unique(tdat1.t2$FishingEntityID)
+
+tdat2<-out.list[[2]]
+
 timestart<-proc.time()    ## Starts timer
+
+for(i in 1:(1/test_prop)){
+  kdat1<-out.list[[i]]
+  report.dat<-kdat1 %>% filter(test.train == "test") %>% select(-test.train)
+  catch.dat<-kdat1 %>% filter(test.train == "train") %>% 
+    select(Year,FishingEntityID,TaxonKey)
+  
+  ## model here
+  kcross.out[[i]]<-PRICE.FUNC(years = yrs, RelYr = refyear, minData = mindat, alpha = p.alpha,
+                              debugtest = T,kcrosstest = T)
+  
+  
+}
+
+
+
+
+
+
+
 
 ## model here
 out.dat<-PRICE.FUNC(years = yrs, RelYr = refyear, minData = mindat, alpha = p.alpha,
