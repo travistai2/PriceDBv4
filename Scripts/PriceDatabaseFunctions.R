@@ -161,12 +161,12 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
           cat(tOUT,file=file.out,sep="\n",append = T)
           rm(tOUT)
         }
+        rm(fit1)
       } else {
         tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
         cat(tOUT,file=file.out,sep="\n",append = T)
         rm(tOUT)
       }
-      rm(fit1)
       
     } else {
       tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
