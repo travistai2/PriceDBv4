@@ -13,7 +13,8 @@ require("tidyverse","tidyselect")
 ##########
 ## Full model function to match prices, estimate international prices 
 ##########
-PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F,kcrosstest = T){ ## estimate international prices
+PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F,
+                     kcrosstest = T){ ## estimate international prices
   
   tcpi.dat<-cpi.dat %>% 
     mutate(IndYr = Index/(Index[which(Year==RelYr)])*100) %>%
@@ -53,7 +54,7 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F,kcros
   
   ## print number of taxon that are not in the taxon table database
   no.match<-iprice.dat$TaxonKey[-which(iprice.dat$TaxonKey %in% taxa.dat$TaxonKey)]
-  print(paste0("# taxon w/out match in taxa.dat: ",length(no.match)))
+  print(paste0("# taxon w/out match: ",length(no.match)))
   print(no.match)
   
   ## create directory and output file for International prices
@@ -64,7 +65,6 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F,kcros
     i_inditer<-i
     file.out<-paste0("./Output/IPrice_",end_prod,"_kcross",i_inditer,"_",date,".txt")
   }
-  
   print(paste0("International Price output file: ",file.out))
   cat(paste("Year","TaxonKey","ID",
             "IPrice_Mean","IPrice_CI","IPrice_N","IPrice_pval",
@@ -166,12 +166,12 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F,kcros
           cat(tOUT,file=file.out,sep="\n",append = T)
           rm(tOUT)
         }
+        rm(fit1)
       } else {
         tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
         cat(tOUT,file=file.out,sep="\n",append = T)
         rm(tOUT)
       }
-      rm(fit1)
       
     } else {
       tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)

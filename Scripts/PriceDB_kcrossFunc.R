@@ -13,10 +13,13 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
   # how to sample data: 1) random by year 2) % of unique taxon data 3) % unique cntry 4) % from each cntry
   
   output.list<-list()
-  
-  for(j in 1:years){
+  for(i in 1:1/tprop){
+    output.list[[i]]<-data.frame()
+  }
+
+  for(j in 1:length(years)){
     trep<-in.repdat %>% filter(Year==years[j])
-    
+
     if(stype=="random"){
       frac<-round(nrow(trep)*tprop)
       n_ind<-sample(1:nrow(trep),nrow(trep),replace=F)
@@ -27,9 +30,6 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
         ttrain<-trep[-tn_ind,] %>%
           mutate(test.train = "train")
         
-        if(j==1){
-          output.list[[i]]<-data.frame()
-        }
         output.list[[i]]<-rbind(output.list[[i]],ttest)
         output.list[[i]]<-rbind(output.list[[i]],ttrain)
       }
@@ -48,9 +48,6 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
         ttrain<-trep[-which(trep$TaxonKey %in% tn_taxa.u),] %>%
           mutate(test.train = "train")
         
-        if(j==1){
-          output.list[[i]]<-data.frame()
-        }
         output.list[[i]]<-rbind(output.list[[i]],ttest)
         output.list[[i]]<-rbind(output.list[[i]],ttrain)
       }
@@ -69,9 +66,6 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
         ttrain<-trep[-which(trep$FishingEntityID %in% tn_cntry.u),] %>%
           mutate(test.train = "train")
         
-        if(j==1){
-          output.list[[i]]<-data.frame()
-        }
         output.list[[i]]<-rbind(output.list[[i]],ttest)
         output.list[[i]]<-rbind(output.list[[i]],ttrain)
       }
@@ -86,14 +80,11 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
         n_ind<-sample(1:nrow(ttrep),nrow(ttrep),replace=F)
         for(i in 1:(1/tprop)){
           tn_ind<-na.omit(n_ind[((i-1)*frac+1):(frac*i)])
-          ttest<-trep[tn_ind,] %>%
+          ttest<-ttrep[tn_ind,] %>%
             mutate(test.train = "test")
-          ttrain<-trep[-tn_ind,] %>%
+          ttrain<-ttrep[-tn_ind,] %>%
             mutate(test.train = "train")
           
-          if(j==1){
-            output.list[[i]]<-data.frame()
-          }
           output.list[[i]]<-rbind(output.list[[i]],ttest)
           output.list[[i]]<-rbind(output.list[[i]],ttrain)
         }
@@ -104,5 +95,10 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
     
     rm(trep)
   }
+  
   return(output.list)
 }
+
+t1<-output.list[[1]]
+t2<-output.list[[2]]
+
