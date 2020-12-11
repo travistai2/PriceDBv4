@@ -146,27 +146,21 @@ PRICE.FUNC<-function(years,RelYr = 2010,minData = 3,alpha=0.05,debugtest=F){ ## 
         }
       }
       
-      if(exists("fit1")==T){ ## if model is fitted and is significant
-        if(summary(fit1)$coefficients[,4]<alpha){
-          iP<-summary(fit1)$coefficients[,1]
-          iP_CI<-summary(fit1)$coefficients[,2]
-          NRow<-nrow(ext.dat)
-          iP_pval<-summary(fit1)$coefficients[,4]
-          Cd<-SCH[1,"CODE"]
-          cat(paste(tYear,tTaxon,xdat$ID,
-                    iP,iP_CI,NRow,iP_pval,
-                    Cd,sep="\t"),file=file.out,sep="\n",append = T)
-        } else {
-          tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
-          cat(tOUT,file=file.out,sep="\n",append = T)
-          rm(tOUT)
-        }
-        rm(fit1)
+      if(exists("fit1")==T & summary(fit1)$coefficients[,4]<alpha){ ## if model is fitted and is significant
+        iP<-summary(fit1)$coefficients[,1]
+        iP_CI<-summary(fit1)$coefficients[,2]
+        NRow<-nrow(ext.dat)
+        iP_pval<-summary(fit1)$coefficients[,4]
+        Cd<-SCH[1,"CODE"]
+        cat(paste(tYear,tTaxon,xdat$ID,
+                  iP,iP_CI,NRow,iP_pval,
+                  Cd,sep="\t"),file=file.out,sep="\n",append = T)
       } else {
         tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)
         cat(tOUT,file=file.out,sep="\n",append = T)
         rm(tOUT)
       }
+      rm(fit1)
       
     } else {
       tOUT<-SecondMatch.FUNC(xdat,minData,RelYr,tcpi.dat)

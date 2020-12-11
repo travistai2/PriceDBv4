@@ -24,9 +24,7 @@ pckg <- c("tidyverse","tidyselect")
 ipak(pckg)
 
 # Read model functions
-source("./Scripts/PriceDatabaseFunctions_kcross.R")
-source("./Scripts/PriceDB_kcrossFunc.R")
-
+source("./Scripts/PriceDatabaseFunctions.R")
 
 
 ####################
@@ -48,6 +46,8 @@ ppp<-read.csv("./Data - syd/ppp.dat_updatedSA.csv",header=T,na.strings=c("","NA"
               stringsAsFactors=F) %>%
   select(Year,FishingEntityID,XRAT,PPP,PPP.XRAT)   ## filter out PPP columns
 
+
+
 ### US CPI table
 cpi.dat<-read.csv("./Data - syd/cpi.dat.csv",header=T,na.strings=c("","NA"),strip.white=T,
                   stringsAsFactors=F) 
@@ -59,7 +59,10 @@ report.dat<-read.csv("./Data - syd/report.dat_filteredonepercentSA.csv",header=T
   select(Year,FishingEntityID,TaxonKey,ObservedPrice,EndProduct) %>% ## Filter out columns
   filter(ObservedPrice>0) %>%   ## Remove observed prices of zero
   left_join(ppp, by=c("Year","FishingEntityID")) 
+<<<<<<< HEAD
 origreport.dat<-report.dat
+=======
+>>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
 
 
 ## catch data for which prices need to be estimated
@@ -88,9 +91,15 @@ treport.dat<-origreport.dat %>% filter(EndProduct == end_prod)
 
 ## kcross parameters
 ## 
+<<<<<<< HEAD
 # how to sample data: 1) random by year 2) % of unique taxon data 3) % unique cntry 4) % from each cntry
 samp_type<-"cntry_all" ## random, taxa, cntry_half, cntry_all
 test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
+=======
+test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
+# how to sample data: 2) random by year, or 2) systematic (by taxon or country) by year
+samp_type<-"random" ## random, taxon, year
+>>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
 ##
 
 ##### END PARAMETERS #####
@@ -98,10 +107,14 @@ test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
 
 
 ##### START SIMULATION #####
+## run code 
 
+test.list<-list()
+train.list<-list()
 
 kcross.out<-list()
 
+<<<<<<< HEAD
 set.seed(100) ## this sets the "random" point to start at the same place in random sampling
 
 ## setting up test and training data
@@ -155,6 +168,30 @@ fit1<-lm(Price2010USD_Mean~ObsPrice_2010USD,data=plot.dat1)
 fit2<-lm(Price2010USD_Mean~ObsPrice_2010USD,data=plot.dat2)
 summary(fit1)
 summary(fit2)
+=======
+
+set.seed(100) ## this sets the "random" point to start at the same place in random sampling
+
+for(i in 1:(1/test_prop)){
+  for(j in 1:yrs){
+    trep<-report.dat %>% filter(Year==yrs[j])
+    frac<-floor(nrow(trep)*test_prop)
+    n_ind<-sample(1:nrow(trep),nrow(trep),replace=F)
+    for(i in 1:(1/test_prop)){
+      n_ind
+      
+      tn_ind<-n_ind[]
+      trep[]
+      
+    }
+    if(samp_type=="random"){
+      
+    }
+    
+  }
+}
+timestart<-proc.time()    ## Starts timer
+>>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
 
 cor(x=log(plot.dat1$ObsPrice_2010USD),
     y=log(plot.dat1$Price2010USD_Mean),
