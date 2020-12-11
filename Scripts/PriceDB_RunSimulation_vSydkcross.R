@@ -24,8 +24,8 @@ pckg <- c("tidyverse","tidyselect")
 ipak(pckg)
 
 # Read model functions
-source("./Scripts/PriceDatabaseFunctions.R")
-
+source("./Scripts/PriceDatabaseFunctions_kcross.R")
+source("./Scripts/PriceDB_kcrossFunc.R")
 
 ####################
 #
@@ -59,10 +59,7 @@ report.dat<-read.csv("./Data - syd/report.dat_filteredonepercentSA.csv",header=T
   select(Year,FishingEntityID,TaxonKey,ObservedPrice,EndProduct) %>% ## Filter out columns
   filter(ObservedPrice>0) %>%   ## Remove observed prices of zero
   left_join(ppp, by=c("Year","FishingEntityID")) 
-<<<<<<< HEAD
 origreport.dat<-report.dat
-=======
->>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
 
 
 ## catch data for which prices need to be estimated
@@ -91,16 +88,10 @@ treport.dat<-origreport.dat %>% filter(EndProduct == end_prod)
 
 ## kcross parameters
 ## 
-<<<<<<< HEAD
-# how to sample data: 1) random by year 2) % of unique taxon data 3) % unique cntry 4) % from each cntry
-samp_type<-"cntry_all" ## random, taxa, cntry_half, cntry_all
-test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
-=======
-test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5
-# how to sample data: 2) random by year, or 2) systematic (by taxon or country) by year
-samp_type<-"random" ## random, taxon, year
->>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
-##
+# how to sample data: 1) random by year 2) % of unique taxon data 3) sample % of unique cntry 4) sample % from each cntry
+samp_type<-"cntry_half" ## 1) random, 2) taxa, 3) cntry_half, 4) cntry_all
+test_prop<-0.5  ## testing proportion of data to use either 0.25 or 0.5; 0.5 ideal and more parsimonious 
+
 
 ##### END PARAMETERS #####
 
@@ -114,7 +105,6 @@ train.list<-list()
 
 kcross.out<-list()
 
-<<<<<<< HEAD
 set.seed(100) ## this sets the "random" point to start at the same place in random sampling
 
 ## setting up test and training data
@@ -161,58 +151,52 @@ timeend-timestart  ## time elapsed
 
 ##### PLOTTING CORRELATION OUTPUT #####
 
-plot.dat1<-kcross.out[[1]]
-plot.dat2<-kcross.out[[2]]
+comb.dat<-do.call(rbind,kcross.out)
 
-fit1<-lm(Price2010USD_Mean~ObsPrice_2010USD,data=plot.dat1)
-fit2<-lm(Price2010USD_Mean~ObsPrice_2010USD,data=plot.dat2)
+fit1<-lm(Price2010USD_Mean~ObsPrice_2010USD,data=comb.dat)
 summary(fit1)
-summary(fit2)
-=======
 
-set.seed(100) ## this sets the "random" point to start at the same place in random sampling
+## obtain statistics 
+r2<-round(summary(fit1)$r.squared,2)
+cor1<-round(cor(x=log(comb.dat$ObsPrice_2010USD),
+                y=log(comb.dat$Price2010USD_Mean),
+                use="complete.obs"),2)
 
-for(i in 1:(1/test_prop)){
-  for(j in 1:yrs){
-    trep<-report.dat %>% filter(Year==yrs[j])
-    frac<-floor(nrow(trep)*test_prop)
-    n_ind<-sample(1:nrow(trep),nrow(trep),replace=F)
-    for(i in 1:(1/test_prop)){
-      n_ind
-      
-      tn_ind<-n_ind[]
-      trep[]
-      
+
+
+if(samp_type=="random"){
+  ptitle<-"Sample: random"
+} else {
+  if(samp_type=="taxa"){
+    ptitle<-"Sample: taxa"
+  } else {
+    if(samp_type=="cntry_half"){
+      ptitle<-"Sample: % countries"
+    } else {
+      if(samp_type=="cntry_all"){
+        ptitle<-"Sample: % from each country"
+      } else {
+        print("error")
+      }
     }
-    if(samp_type=="random"){
-      
-    }
-    
   }
 }
-timestart<-proc.time()    ## Starts timer
->>>>>>> f8f708f1b5c6308b692ae1e6ecae81b863d2d316
 
-cor(x=log(plot.dat1$ObsPrice_2010USD),
-    y=log(plot.dat1$Price2010USD_Mean),
-    use="complete.obs")
+date<-Sys.Date()
+plot.name<-paste0("./Plots/kcross_",samp_type,"_",date,".pdf")
 
-cor(x=log(plot.dat2$ObsPrice_2010USD),
-    y=log(plot.dat2$Price2010USD_Mean),
-    use="complete.obs")
-
-
-p1<-ggplot(plot.dat1) 
+pdf(plot.name)
+p1<-ggplot(comb.dat) 
 p1 + geom_point(aes(x=log(ObsPrice_2010USD),y=log(Price2010USD_Mean))) + 
   geom_abline(slope=1,intercept=0) +
   labs(x="log(Reported price)",y="log(Estimated price)",
-       title = paste0("kcross ",samp_type,"1")) +
-  coord_cartesian(xlim=c(0,12),ylim=c(0,12))
+       title = paste0("kcross ",samp_type)) +
+  coord_cartesian(xlim=c(0,12),ylim=c(0,12)) + 
+  annotate("text",label=paste0("r2 = ",r2,"; cor = ",cor1),
+           x=9.5,y=1)
+dev.off()
 
 
-
-output.name<-paste0("./Output/PriceDatabaseOutputEstimates_",Sys.Date(),".csv")
-write.csv(out.dat,output.name,row.names = F)
 
 
 

@@ -99,6 +99,5 @@ KCross.price<-function(in.repdat = report.dat, years, tprop = test_prop,
   return(output.list)
 }
 
-t1<-output.list[[1]]
-t2<-output.list[[2]]
+
 
